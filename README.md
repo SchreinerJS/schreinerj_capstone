@@ -27,8 +27,8 @@ In review of the available data and many factors impacting single parents, I dec
 - [Family size]
 
 ## Questions:
-1) How has the shape of the American family changed over time?
-2) What are some of the trends regarding the factors impacting single parent families and incomes over time?
+1) How has the shape and structure of the American family changed over time regarding parenting trends?
+2) What factors are contributing to median incomes relative to family shape and structure?
 
 ## Normalizing the Data
 Data was drawn primarily from U.S. Census Bureau Current Population Surveys Annual Social and Economic Supplements (CPS ASEC) Tables.  Additional single parent datasets were selected from datadiversitykids.org, which were calculated from Census Bureau American Community Survey (ACS) data.
