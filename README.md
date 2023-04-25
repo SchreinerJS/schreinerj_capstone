@@ -7,7 +7,7 @@ Link:
 * [Tableau Dashboard](#Tableau-dashboard)
 * [Motivation](#motivation)
 * [Questions](#questions)
-* [Normalizing the Data](#normaling-the-data)
+* [Data Cleaning and Normalizing](#normaling-the-data)
 * [Issues and Limitations](#issues-and-limitations)
 * [Technologies Used](#technologies-used)
 * [Sources](#sources)
@@ -30,7 +30,7 @@ In review of the available data and many factors impacting single parents, I dec
 1) How has the shape and structure of the American family changed over time regarding parenting trends?
 2) What factors are contributing to median incomes relative to family shape and structure?
 
-## Normalizing the Data
+## Data Cleaning and Normalizing
 Data was drawn primarily from U.S. Census Bureau Current Population Surveys Annual Social and Economic Supplements (CPS ASEC) Tables.  Additional single parent datasets were selected from datadiversitykids.org, which were calculated from Census Bureau American Community Survey (ACS) data.
 
 Just as family structure and related factors have been changing, many Census variables and definitions have also been evolving to accommodate such changes.  There were also considerations of the need to make adjustments for current dollars.  Therefore the decision was made to utilize pre-tabulated which offered a variety of historical household, family, and income values calculated with the appropriate year-to-year adjustments.
