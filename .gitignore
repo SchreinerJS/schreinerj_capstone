@@ -130,3 +130,7 @@ dmypy.json
 
 # data
 data/
+
+# alteryx backups
+H_tables_household_income.bak
+test.bak

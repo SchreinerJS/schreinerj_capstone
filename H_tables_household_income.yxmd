@@ -1,0 +1,2729 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="28" y="3017" width="362" height="684" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>hh_income_shares_avg_inc_quintile_1979-2019</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="65" y="3066" width="300" height="64" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[Income Shares for All Households				
+by Comprehensive Household Income Quintile, 1979-2019
+Number of Households (Millions)												
+]]></Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="53" y="3138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>avg_share_incomes_historical_quintile_1979-2019_adj.xlsx
+Query=`Income_shares_historical_qu...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`" type="Double" />
+                <Field name="Lowest Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`" type="Double" />
+                <Field name="Second Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`" type="Double" />
+                <Field name="Middle Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`" type="Double" />
+                <Field name="Fourth Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`" type="Double" />
+                <Field name="Highest Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`" type="Double" />
+                <Field name="F7" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`" type="Double" />
+                <Field name="All         Quintiles" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`" type="Double" />
+                <Field name="F9" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`" type="Double" />
+                <Field name="81st - 90th  Percentiles   " source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`" type="Double" />
+                <Field name="91st - 95th Percentiles" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`" type="Double" />
+                <Field name="96th - 99th Percentiles" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`" type="Double" />
+                <Field name="Top 1%" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`Income_shares_historical_quintiles`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="3318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>avg_share_incomes_historical_quintile_1979-2019_adj.xlsx
+Query=`avg_after_tax_income_quinti...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`" type="Double" />
+                <Field name="Lowest Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`" type="Double" />
+                <Field name="Second Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`" type="Double" />
+                <Field name="Middle Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`" type="Double" />
+                <Field name="Fourth Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`" type="Double" />
+                <Field name="Highest Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`" type="Double" />
+                <Field name="F7" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`" type="Double" />
+                <Field name="All         Quintiles" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`" type="Double" />
+                <Field name="F9" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`" type="Double" />
+                <Field name="81st - 90th  Percentiles   " source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`" type="Double" />
+                <Field name="91st - 95th Percentiles" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`" type="Double" />
+                <Field name="96th - 99th Percentiles" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`" type="Double" />
+                <Field name="Top 1%" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`avg_after_tax_income_quintiles_2019dollars`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="3510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>avg_share_incomes_historical_quintile_1979-2019_adj.xlsx
+Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`" type="Double" />
+                <Field name="Lowest Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`" type="Double" />
+                <Field name="Second Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`" type="Double" />
+                <Field name="Middle Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`" type="Double" />
+                <Field name="Fourth Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`" type="Double" />
+                <Field name="Highest Quintile" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`" type="Double" />
+                <Field name="F7" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`" type="Double" />
+                <Field name="All         Quintiles" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`" type="Double" />
+                <Field name="F9" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`" type="Double" />
+                <Field name="81st - 90th  Percentiles   " source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`" type="Double" />
+                <Field name="91st - 95th Percentiles" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`" type="Double" />
+                <Field name="96th - 99th Percentiles" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`" type="Double" />
+                <Field name="Top 1%" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\taxpolicycenter\avg_share_incomes_historical_quintile_1979-2019_adj.xlsx|||`share_of_aftertax_income_perc`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="28" y="2717" width="388" height="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>H2_share_of_aggregate_income_by_quartiles_1967-2021</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="53" y="2766" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h02ar_shareofaggregateincome_adj.xlsx|||`share_aggregate`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>h02ar_shareofaggregateincome_adj.xlsx
+Query=`share_aggregate`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h02ar_shareofaggregateincome_adj.xlsx|||`share_aggregate`" type="V_String" />
+                <Field name="Number (thousands)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h02ar_shareofaggregateincome_adj.xlsx|||`share_aggregate`" type="Double" />
+                <Field name="Shares of aggregate income" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h02ar_shareofaggregateincome_adj.xlsx|||`share_aggregate`" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h02ar_shareofaggregateincome_adj.xlsx|||`share_aggregate`" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h02ar_shareofaggregateincome_adj.xlsx|||`share_aggregate`" type="V_String" />
+                <Field name="F6" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h02ar_shareofaggregateincome_adj.xlsx|||`share_aggregate`" type="V_String" />
+                <Field name="F7" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h02ar_shareofaggregateincome_adj.xlsx|||`share_aggregate`" type="V_String" />
+                <Field name="F8" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h02ar_shareofaggregateincome_adj.xlsx|||`share_aggregate`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="102">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="797" y="1193" width="504" height="413" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Combined races</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="108">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="822" y="1242" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'Black'" field="Race" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Race = 'Black'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="109">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="822" y="1326" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'White, non-Hispanic'" field="Race" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Race = 'White, non-Hispanic'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="110">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="822" y="1422" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'Hispanic'" field="Race" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Race = 'Hispanic'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="111">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="822" y="1506" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'Asian'" field="Race" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Race = 'Asian'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="112">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="918" y="1278" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="115">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="990" y="1362" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="116">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1074" y="1434" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="117">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1170" y="1434" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Year" order="Descending" />
+                <Field field="Race" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Year - Descending
+Race - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="53" y="3713" width="212" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>population percentages</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="101">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="78" y="3762" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\kaggle\usa_population_2019.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>usa_population_2019.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Geographic Area" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\kaggle\usa_population_2019.csv" type="V_String" />
+                <Field name="Postal Code" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\kaggle\usa_population_2019.csv" type="V_String" />
+                <Field name="Total Resident Population" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\kaggle\usa_population_2019.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="29" y="2501" width="577" height="195" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>H1h_IncomeQuartlies_Asian_2002-2021</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="2550" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01a_adj.xlsx|||`Asian_alone`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>h01a_adj.xlsx
+Query=`Asian_alone`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01a_adj.xlsx|||`Asian_alone`" type="V_String" />
+                <Field name="Number (thousands)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01a_adj.xlsx|||`Asian_alone`" type="Double" />
+                <Field name="Upper limit of each fifth (dollars)" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01a_adj.xlsx|||`Asian_alone`" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01a_adj.xlsx|||`Asian_alone`" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01a_adj.xlsx|||`Asian_alone`" type="V_String" />
+                <Field name="F6" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01a_adj.xlsx|||`Asian_alone`" type="V_String" />
+                <Field name="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01a_adj.xlsx|||`Asian_alone`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings>
+            <Position x="150" y="2550" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2-21</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="91">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="246" y="2550" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Number (thousands)" selected="True" rename="Total Households" type="Int64" size="8" />
+                <SelectField field="Upper limit of each fifth (dollars)" selected="True" rename="Lowest" type="Int64" size="8" />
+                <SelectField field="F4" selected="True" rename="Second" type="Int64" size="8" />
+                <SelectField field="F5" selected="True" rename="Third" type="Int64" size="8" />
+                <SelectField field="F6" selected="True" rename="Fourth" type="Int64" size="8" />
+                <SelectField field="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" selected="True" rename="Top Five Percent" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="92">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="342" y="2550" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Year], &quot;\s*\(\d{2}\)&quot;, &quot;&quot;)" field="Year" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="106">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="522" y="2550" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="19" MaxRecords="" />
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <NoSpatialIndex>False</NoSpatialIndex>
+                <SaveSource>True</SaveSource>
+                <WriteCompatibleVersion>False</WriteCompatibleVersion>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="114">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="426" y="2550" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Total Households" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="29" y="2273" width="565" height="195" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>H1h_IncomeQuartlies_Hispanic_1972-2021</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="2322" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01h_adj.xlsx|||`hispanic`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>h01h_adj.xlsx
+Query=`hispanic`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01h_adj.xlsx|||`hispanic`" type="V_String" />
+                <Field name="Number (thousands)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01h_adj.xlsx|||`hispanic`" type="Double" />
+                <Field name="Upper limit of each fifth (dollars)" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01h_adj.xlsx|||`hispanic`" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01h_adj.xlsx|||`hispanic`" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01h_adj.xlsx|||`hispanic`" type="V_String" />
+                <Field name="F6" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01h_adj.xlsx|||`hispanic`" type="V_String" />
+                <Field name="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01h_adj.xlsx|||`hispanic`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings>
+            <Position x="150" y="2322" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2-106</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="83">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="246" y="2322" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Number (thousands)" selected="True" rename="Total Households" type="Int64" size="8" />
+                <SelectField field="Upper limit of each fifth (dollars)" selected="True" rename="Lowest" type="Int64" size="8" />
+                <SelectField field="F4" selected="True" rename="Second" type="Int64" size="8" />
+                <SelectField field="F5" selected="True" rename="Third" type="Int64" size="8" />
+                <SelectField field="F6" selected="True" rename="Fourth" type="Int64" size="8" />
+                <SelectField field="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" selected="True" rename="Top Five Percent" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="342" y="2322" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Year], &quot;\s*\(\d{2}\)&quot;, &quot;&quot;)" field="Year" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="105">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="510" y="2322" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="19" MaxRecords="" />
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <NoSpatialIndex>False</NoSpatialIndex>
+                <SaveSource>True</SaveSource>
+                <WriteCompatibleVersion>False</WriteCompatibleVersion>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="113">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="438" y="2322" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Total Households" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="29" y="1685" width="721" height="567" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>H1w_IncomeQuartlies_White_2021dollars_1967-2001_2022-2021</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="1734" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>h01w_adj.xlsx
+Query=`White`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White`" type="V_String" />
+                <Field name="Number (thousands)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White`" type="Double" />
+                <Field name="Upper limit of each fifth (dollars)" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White`" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White`" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White`" type="V_String" />
+                <Field name="F6" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White`" type="V_String" />
+                <Field name="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="1842" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White_alone`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>h01w_adj.xlsx
+Query=`White_alone`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White_alone`" type="V_String" />
+                <Field name="Number (thousands)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White_alone`" type="Double" />
+                <Field name="Upper limit of each fifth (dollars)" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White_alone`" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White_alone`" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White_alone`" type="V_String" />
+                <Field name="F6" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White_alone`" type="V_String" />
+                <Field name="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01w_adj.xlsx|||`White_alone`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="60">
+          <GuiSettings>
+            <Position x="162" y="1734" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2-31</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="258" y="1734" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Number (thousands)" selected="True" rename="Total Households" type="Int64" size="8" />
+                <SelectField field="Upper limit of each fifth (dollars)" selected="True" rename="Lowest" type="Int64" size="8" />
+                <SelectField field="F4" selected="True" rename="Second" type="Int64" size="8" />
+                <SelectField field="F5" selected="True" rename="Third" type="Int64" size="8" />
+                <SelectField field="F6" selected="True" rename="Fourth" type="Int64" size="8" />
+                <SelectField field="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" selected="True" rename="Top Five Percent" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="354" y="1734" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Year], &quot;\s*\(\d{2}\)&quot;, &quot;&quot;)" field="Year" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings>
+            <Position x="161" y="1842" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2-22</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="246" y="1842" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Number (thousands)" selected="True" rename="Total Households" type="Int64" size="8" />
+                <SelectField field="Upper limit of each fifth (dollars)" selected="True" rename="Lowest" type="Int64" size="8" />
+                <SelectField field="F4" selected="True" rename="Second" type="Int64" size="8" />
+                <SelectField field="F5" selected="True" rename="Third" type="Int64" size="8" />
+                <SelectField field="F6" selected="True" rename="Fourth" type="Int64" size="8" />
+                <SelectField field="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" selected="True" rename="Top Five Percent" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="354" y="1842" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Year], &quot;\s*\(\d{2}\)&quot;, &quot;&quot;)" field="Year" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="462" y="1794" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="67">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="642" y="1794" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Total Households" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="546" y="1794" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Year" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Year - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="1974" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_1972_2021`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>h01wnh_adj.xlsx
+Query=`wnh_quintiles_1972_2021`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_1972_2021`" type="V_String" />
+                <Field name="Number (thousands)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_1972_2021`" type="Double" />
+                <Field name="Upper limit of each fifth (dollars)" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_1972_2021`" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_1972_2021`" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_1972_2021`" type="V_String" />
+                <Field name="F6" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_1972_2021`" type="V_String" />
+                <Field name="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_1972_2021`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="366" y="1974" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Year], &quot;\s*\(\d{2}\)&quot;, &quot;&quot;)" field="Year" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings>
+            <Position x="162" y="1974" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2-31</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="258" y="1974" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Number (thousands)" selected="True" rename="Total Households" type="Int64" size="8" />
+                <SelectField field="Upper limit of each fifth (dollars)" selected="True" rename="Lowest" type="Int64" size="8" />
+                <SelectField field="F4" selected="True" rename="Second" type="Int64" size="8" />
+                <SelectField field="F5" selected="True" rename="Third" type="Int64" size="8" />
+                <SelectField field="F6" selected="True" rename="Fourth" type="Int64" size="8" />
+                <SelectField field="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" selected="True" rename="Top Five Percent" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="2106" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_2021dollars_2002_2021`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>h01wnh_adj.xlsx
+Query=`wnh_quintiles_2021dollars_2...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_2021dollars_2002_2021`" type="V_String" />
+                <Field name="Number (thousands)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_2021dollars_2002_2021`" type="Double" />
+                <Field name="Upper limit of each fifth (dollars)" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_2021dollars_2002_2021`" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_2021dollars_2002_2021`" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_2021dollars_2002_2021`" type="V_String" />
+                <Field name="F6" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_2021dollars_2002_2021`" type="V_String" />
+                <Field name="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01wnh_adj.xlsx|||`wnh_quintiles_2021dollars_2002_2021`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="74">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="366" y="2106" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Year], &quot;\s*\(\d{2}\)&quot;, &quot;&quot;)" field="Year" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="258" y="2106" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Number (thousands)" selected="True" rename="Total Households" type="Int64" size="8" />
+                <SelectField field="Upper limit of each fifth (dollars)" selected="True" rename="Lowest" type="Int64" size="8" />
+                <SelectField field="F4" selected="True" rename="Second" type="Int64" size="8" />
+                <SelectField field="F5" selected="True" rename="Third" type="Int64" size="8" />
+                <SelectField field="F6" selected="True" rename="Fourth" type="Int64" size="8" />
+                <SelectField field="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" selected="True" rename="Top Five Percent" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings>
+            <Position x="161" y="2106" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2-21</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="77">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="486" y="2034" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="78">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="570" y="2034" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Year" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Year - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="79">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="666" y="2034" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Total Households" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="104">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="654" y="2142" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="19" MaxRecords="" />
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <NoSpatialIndex>False</NoSpatialIndex>
+                <SaveSource>True</SaveSource>
+                <WriteCompatibleVersion>False</WriteCompatibleVersion>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="28" y="0" width="734" height="727" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>H1ar_IncomeQuartiles_2021dollars_1967-2021_allhh</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="245" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx
+Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="V_String" />
+                <Field name="Number (thousands)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="Double" />
+                <Field name="Upper limit of each fifth (dollars)" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="V_String" />
+                <Field name="F6" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="V_String" />
+                <Field name="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings>
+            <Position x="162" y="245" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2-50</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="246" y="245" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Number (thousands)" selected="False" rename="Total Households" type="Int64" size="8" />
+                <SelectField field="Upper limit of each fifth (dollars)" selected="True" rename="Lowest" type="Int64" size="8" />
+                <SelectField field="F4" selected="True" rename="Second" type="Int64" size="8" />
+                <SelectField field="F5" selected="True" rename="Third" type="Int64" size="8" />
+                <SelectField field="F6" selected="True" rename="Fourth" type="Int64" size="8" />
+                <SelectField field="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" selected="True" rename="Top Five Percent" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="53" y="48" width="636" height="149" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>NOTE: 1st four fifths are upper limit of each fifth in 2021 adjusted dollars
+
+Final fifth is lower limit of the top 5 percent of incomes in 2021 adjusted dollars
+
+Source: U.S. Census Bureau, Current Population Survey, 1968 to 2022 Annual Social and Economic Supplements (CPS ASEC).
+
+Information on confidentiality protection, sampling error, nonsampling error, and definitions is available at &lt;https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar22.pdf&gt;.
+
+Footnotes are available at &lt;www.census.gov/topics/income-poverty/income/guidance/cps-historic-footnotes.html&gt;.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="54" y="426" width="684" height="276" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>The federal minimum wage in the United States has been $7.25 per hour since July 2009, the last time Congress raised it. Some types of labor are exempt: Employers may pay tipped labor a minimum of $2.13 per hour, as long as the hour wage plus tip income equals at least the minimum wage.
+
+7.25x40x52=15,080 before tax.  Minimum wage single parent worker would have to work at least 2  full-time jobs to meet what the data shows as the lower limit of the lowest quartile
+
+ https://en.wikipedia.org/wiki/Minimum_wage_in_the_United_States#:~:text=The%20federal%20minimum%20wage%20in,at%20least%20the%20minimum%20wage.
+
+STATES ABOVE OR AT MINIMUM WAGE:
+https://www.hourly.io/post/minimum-wage-by-state#:~:text=Which%20States%20Have%20a%20%2415,we%20get%20to%20mid%2D2023.
+
+STATES WITH LOWEST MIN WAGE:
+Wyoming, Georgia @ 5.15/hr (but employers have to pay at least 7.25 /hr)
+
+STATES WITH NO MIN WAGE LAWS:
+AL, LA, MI, SC, TN
+Tennessee only of those states with no state/city income tax</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="329" y="245" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Year], &quot;\s*\(\d{2}\)&quot;, &quot;&quot;)" field="Year" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="107">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="594" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="19" MaxRecords="" />
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <NoSpatialIndex>False</NoSpatialIndex>
+                <SaveSource>True</SaveSource>
+                <WriteCompatibleVersion>False</WriteCompatibleVersion>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="28" y="736" width="1354" height="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Race Percentage of Total Surveyed</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="53" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx
+Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="V_String" />
+                <Field name="Number (thousands)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="Double" />
+                <Field name="Upper limit of each fifth (dollars)" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="V_String" />
+                <Field name="F6" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="V_String" />
+                <Field name="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings>
+            <Position x="162" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2-51</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="246" y="785" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Number (thousands)" selected="True" rename="Total Households" type="Int64" size="8" />
+                <SelectField field="Upper limit of each fifth (dollars)" selected="False" rename="Lowest" type="Int64" size="8" />
+                <SelectField field="F4" selected="False" rename="Second" type="Int64" size="8" />
+                <SelectField field="F5" selected="False" rename="Third" type="Int64" size="8" />
+                <SelectField field="F6" selected="False" rename="Fourth" type="Int64" size="8" />
+                <SelectField field="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" selected="False" rename="Top Five Percent" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="342" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Year], &quot;\s*\(\d{2}\)&quot;, &quot;&quot;)" field="Year" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="450" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Year" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Year" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
+                    <SelectField field="Right_Total Households" selected="True" rename="Black_Households" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="438" y="942" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Total Households" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="80">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="570" y="810" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Year" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Year" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Year" selected="True" input="Left_" />
+                    <SelectField field="Left_Total Households" selected="True" input="Left_" />
+                    <SelectField field="Left_Black_Households" selected="True" input="Left_" />
+                    <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
+                    <SelectField field="Right_Total Households" selected="True" rename="White_NonHispanic_Households" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="81">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1170" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Year" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Year - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="85">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="822" y="822" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Year" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Year" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Year" selected="True" input="Left_" />
+                    <SelectField field="Left_Total Households" selected="True" input="Left_" />
+                    <SelectField field="Left_Black_Households" selected="True" input="Left_" />
+                    <SelectField field="Left_White_NonHispanic_Households" selected="True" input="Left_" />
+                    <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
+                    <SelectField field="Right_Total Households" selected="True" rename="Hispanic_Households" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="94">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="942" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Year" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Year" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Year" selected="True" input="Left_" />
+                    <SelectField field="Left_Total Households" selected="True" input="Left_" />
+                    <SelectField field="Left_Black_Households" selected="True" input="Left_" />
+                    <SelectField field="Left_White_NonHispanic_Households" selected="True" input="Left_" />
+                    <SelectField field="Left_Hispanic_Households" selected="True" input="Left_" />
+                    <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
+                    <SelectField field="Right_Total Households" selected="True" rename="Asian_Households" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="95">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="1074" y="954" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="Year" />
+                <Field field="Total Households" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Year" selected="False" />
+                <Field field="Total Households" selected="False" />
+                <Field field="Black_Households" selected="True" />
+                <Field field="White_NonHispanic_Households" selected="True" />
+                <Field field="Hispanic_Households" selected="True" />
+                <Field field="Asian_Households" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="96">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1266" y="954" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Replace([DimRace], &quot;_Households&quot;, &quot;&quot;)" field="DimRace" size="28" type="String" />
+                <FormulaField expression="Replace([DimRace], &quot;White_NonHispanic&quot;, &quot;White,NonHispanic&quot;)" field="DimRace" size="28" type="String" />
+                <FormulaField expression="ROUND([Race (count)]/[Total Households], .01)" field="Perc_families_surveyed" size="4" type="Float" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DimRace = Replace([DimRace], "_Households", "")
+DimRace = Replace([DimRace], "Wh...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="97">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1170" y="954" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Name" selected="True" rename="DimRace" />
+                <SelectField field="Value" selected="True" rename="Race (count)" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="99">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1074" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <AutoResetMode>ByName</AutoResetMode>
+              <MultiMetaInfo>
+                <MetaInfo name="#1">
+                  <RecordInfo>
+                    <Field name="Year" size="255" source="Formula: REGEX_Replace([Year], &quot;\s*\(\d{2}\)&quot;, &quot;&quot;)" type="V_String" column="1" />
+                    <Field name="Total Households" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="Int64" column="2" />
+                    <Field name="Black_Households" source="File: (Multiple Sources)" type="Int64" column="3" />
+                    <Field name="White_NonHispanic_Households" source="File: (Multiple Sources)" type="Int64" column="4" />
+                    <Field name="Hispanic_Households" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01h_adj.xlsx|||`hispanic`" type="Int64" column="5" />
+                    <Field name="Asian_Households" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01a_adj.xlsx|||`Asian_alone`" type="Int64" column="6" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#2">
+                  <RecordInfo>
+                    <Field name="Year" size="255" source="Formula: REGEX_Replace([Year], &quot;\s*\(\d{2}\)&quot;, &quot;&quot;)" type="V_String" column="1" />
+                    <Field name="Total Households" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01ar_quartile_income2021dollars_1967-2021_allhh.xlsx|||`quartiles_income_2021dollars_1967to2021_all_hh`" type="Int64" column="2" />
+                    <Field name="Black_Households" source="File: (Multiple Sources)" type="Int64" column="3" />
+                    <Field name="White_NonHispanic_Households" source="File: (Multiple Sources)" type="Int64" column="4" />
+                    <Field name="Hispanic_Households" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01h_adj.xlsx|||`hispanic`" type="Int64" column="5" />
+                  </RecordInfo>
+                </MetaInfo>
+              </MultiMetaInfo>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ManualDelayed</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="28" y="1193" width="709" height="471" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>H1b_IncomeQuartlies_Black_2021dollars_1967-2001_2002-2021</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="53" y="1242" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>h01b_adj.xlsx
+Query=`Black`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black`" type="V_String" />
+                <Field name="Number (thousands)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black`" type="Double" />
+                <Field name="Upper limit of each fifth (dollars)" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black`" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black`" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black`" type="V_String" />
+                <Field name="F6" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black`" type="V_String" />
+                <Field name="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="53" y="1350" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_Alone`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>h01b_adj.xlsx
+Query=`Black_Alone`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_Alone`" type="V_String" />
+                <Field name="Number (thousands)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_Alone`" type="Double" />
+                <Field name="Upper limit of each fifth (dollars)" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_Alone`" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_Alone`" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_Alone`" type="V_String" />
+                <Field name="F6" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_Alone`" type="V_String" />
+                <Field name="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_Alone`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="1518" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_alone_or_in_combination`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>h01b_adj.xlsx
+Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_alone_or_in_combination`" type="V_String" />
+                <Field name="Number (thousands)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_alone_or_in_combination`" type="Double" />
+                <Field name="Upper limit of each fifth (dollars)" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_alone_or_in_combination`" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_alone_or_in_combination`" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_alone_or_in_combination`" type="V_String" />
+                <Field name="F6" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_alone_or_in_combination`" type="V_String" />
+                <Field name="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h01b_adj.xlsx|||`Black_alone_or_in_combination`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings>
+            <Position x="161" y="1242" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2-31</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="258" y="1242" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Number (thousands)" selected="True" rename="Total Households" type="Int64" size="8" />
+                <SelectField field="Upper limit of each fifth (dollars)" selected="True" rename="Lowest" type="Int64" size="8" />
+                <SelectField field="F4" selected="True" rename="Second" type="Int64" size="8" />
+                <SelectField field="F5" selected="True" rename="Third" type="Int64" size="8" />
+                <SelectField field="F6" selected="True" rename="Fourth" type="Int64" size="8" />
+                <SelectField field="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" selected="True" rename="Top Five Percent" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="354" y="1242" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Year], &quot;\s*\(\d{2}\)&quot;, &quot;&quot;)" field="Year" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings>
+            <Position x="162" y="1350" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2-22</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="258" y="1350" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Number (thousands)" selected="True" rename="Total Households" type="Int64" size="8" />
+                <SelectField field="Upper limit of each fifth (dollars)" selected="True" rename="Lowest" type="Int64" size="8" />
+                <SelectField field="F4" selected="True" rename="Second" type="Int64" size="8" />
+                <SelectField field="F5" selected="True" rename="Third" type="Int64" size="8" />
+                <SelectField field="F6" selected="True" rename="Fourth" type="Int64" size="8" />
+                <SelectField field="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" selected="True" rename="Top Five Percent" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="354" y="1350" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Year], &quot;\s*\(\d{2}\)&quot;, &quot;&quot;)" field="Year" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings>
+            <Position x="161" y="1518" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">2-22</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="270" y="1518" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Number (thousands)" selected="False" rename="Total Households" type="Int64" size="8" />
+                <SelectField field="Upper limit of each fifth (dollars)" selected="True" rename="Lowest" type="Int64" size="8" />
+                <SelectField field="F4" selected="True" rename="Second" type="Int64" size="8" />
+                <SelectField field="F5" selected="True" rename="Third" type="Int64" size="8" />
+                <SelectField field="F6" selected="True" rename="Fourth" type="Int64" size="8" />
+                <SelectField field="Lower limit&#xA;of top 5&#xA;percent&#xA;(dollars)" selected="True" rename="Top Five Percent" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="378" y="1518" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Year], &quot;\s*\(\d{2}\)&quot;, &quot;&quot;)" field="Year" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="438" y="1290" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="522" y="1290" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Year" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Year - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="618" y="1290" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Total Households" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="54" y="1470" width="444" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text />
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="103">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="654" y="1482" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="19" MaxRecords="" />
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <NoSpatialIndex>False</NoSpatialIndex>
+                <SaveSource>True</SaveSource>
+                <WriteCompatibleVersion>False</WriteCompatibleVersion>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="108" Connection="Output" />
+      <Destination ToolID="112" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="109" Connection="Output" />
+      <Destination ToolID="112" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="110" Connection="Output" />
+      <Destination ToolID="115" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="112" Connection="Output" />
+      <Destination ToolID="115" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="111" Connection="Output" />
+      <Destination ToolID="116" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="115" Connection="Output" />
+      <Destination ToolID="116" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="116" Connection="Output" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Output" />
+      <Destination ToolID="92" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="92" Connection="Output" />
+      <Destination ToolID="94" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="85" Connection="Join" />
+      <Destination ToolID="94" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="92" Connection="Output" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="111" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="82" Connection="Output" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="Output" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="85" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Join" />
+      <Destination ToolID="85" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="113" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="113" Connection="Output" />
+      <Destination ToolID="110" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="80" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Join" />
+      <Destination ToolID="80" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="48" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="48" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Output" />
+      <Destination ToolID="95" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="94" Connection="Join" />
+      <Destination ToolID="99" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="94" Connection="Left" />
+      <Destination ToolID="99" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="95" Connection="Output" />
+      <Destination ToolID="97" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="97" Connection="Output" />
+      <Destination ToolID="96" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="99" Connection="Output" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="108" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>H_tables_household_income</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="ae1d04a5-7def-44e1-b5da-2c10782dcea4" />
+      <Telemetry>
+        <PreviousWorkflowId value="578b345f-9b5c-4efb-ba5d-597738f1e5a5" />
+        <OriginWorkflowId value="578b345f-9b5c-4efb-ba5d-597738f1e5a5" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
