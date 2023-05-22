@@ -1,0 +1,523 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="28" width="1293" height="315" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>HH-6</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1134" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Year" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Year - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1050" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Value" selected="True" rename="Average" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1218" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\HH\hh6_avg_pop_hh_fam_1940_2022_1.csv</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>hh6_avg_pop_hh_fam_1940_2022_1.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="894" y="77" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\HH\hh6_avg_pop_hh_fam_1940_2022.csv</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>hh6_avg_pop_hh_fam_1940_2022.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="787" y="178" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <AutoResetMode>ByName</AutoResetMode>
+              <MultiMetaInfo>
+                <MetaInfo name="#1">
+                  <RecordInfo>
+                    <Field name="Year" size="764" source="Formula: REGEX_Replace([Year], &quot;(\d{4})\D.*&quot;, &quot;$1&quot;)" type="V_String" column="1" />
+                    <Field name="Total" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="Int64" column="2" />
+                    <Field name="All members" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="Float" column="3" />
+                    <Field name="Children" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="Float" column="4" />
+                    <Field name="Adults" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="Float" column="5" />
+                    <Field name="Household" size="1073741823" source="Formula: 'All'" type="V_WString" column="6" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#2">
+                  <RecordInfo>
+                    <Field name="Year" size="764" source="Formula: REGEX_Replace([Year], &quot;(\d{4})\D.*&quot;, &quot;$1&quot;)" type="V_String" column="1" />
+                    <Field name="Total" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="Int64" column="2" />
+                    <Field name="All members" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="Float" column="3" />
+                    <Field name="Children" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="Float" column="4" />
+                    <Field name="Adults" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="Float" column="5" />
+                    <Field name="Household" size="1073741823" source="Formula: 'Family'" type="V_WString" column="6" />
+                  </RecordInfo>
+                </MetaInfo>
+              </MultiMetaInfo>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ManualDelayed</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="954" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="Year" />
+                <Field field="Total" />
+                <Field field="Household" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Year" selected="False" />
+                <Field field="Total" selected="False" />
+                <Field field="All members" selected="True" />
+                <Field field="Children" selected="True" />
+                <Field field="Adults" selected="True" />
+                <Field field="Household" selected="False" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="679" y="228" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'Family'" field="Household" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Household = 'Family'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="679" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'All'" field="Household" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Household = 'All'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="583" y="223" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="All households" selected="False" />
+                <SelectField field="All hh members (avg)" selected="False" />
+                <SelectField field="HH children (avg)" selected="False" />
+                <SelectField field="HH adults (avg)" selected="False" />
+                <SelectField field="Family households" selected="True" rename="Total" />
+                <SelectField field="All family members (avg)" selected="True" rename="All members" />
+                <SelectField field="Fam children (avg)" selected="True" rename="Children" />
+                <SelectField field="Fam adults (avg)" selected="True" rename="Adults" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="583" y="109" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="All households" selected="True" rename="Total" />
+                <SelectField field="All hh members (avg)" selected="True" rename="All members" />
+                <SelectField field="HH children (avg)" selected="True" rename="Children" />
+                <SelectField field="HH adults (avg)" selected="True" rename="Adults" />
+                <SelectField field="Family households" selected="False" />
+                <SelectField field="All family members (avg)" selected="False" />
+                <SelectField field="Fam children (avg)" selected="False" />
+                <SelectField field="Fam adults (avg)" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="123" width="420" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Children = variable "Under 18"; Adults = variable "18 and older"</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="379" y="160" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Year], &quot;(\d{4})\D.*&quot;, &quot;$1&quot;)" field="Year" size="764" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Year = REGEX_Replace([Year], "(\d{4})\D.*", "$1")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="283" y="160" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Table with row headers in column A, and column headers in rows 8 through 11." selected="True" rename="Year" />
+                <SelectField field="F2" selected="True" rename="All households" type="Int64" size="8" />
+                <SelectField field="F3" selected="True" rename="All hh members (avg)" type="Float" size="4" />
+                <SelectField field="F4" selected="True" rename="HH children (avg)" type="Float" size="4" />
+                <SelectField field="F5" selected="True" rename="HH adults (avg)" type="Float" size="4" />
+                <SelectField field="F6" selected="False" rename="Mean" type="Int64" size="8" />
+                <SelectField field="F7" selected="True" rename="Family households" type="Int64" size="8" />
+                <SelectField field="F8" selected="True" rename="All family members (avg)" type="Float" size="4" />
+                <SelectField field="F9" selected="True" rename="Fam children (avg)" type="Float" size="4" />
+                <SelectField field="F10" selected="True" rename="Fam adults (avg)" type="Float" size="4" />
+                <SelectField field="F11" selected="False" />
+                <SelectField field="F12" selected="False" />
+                <SelectField field="F13" selected="False" />
+                <SelectField field="F14" selected="False" />
+                <SelectField field="F15" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings>
+            <Position x="199" y="158" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">10-86</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="91" y="160" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>hh6_avg_pop_hh_fam_1940_2022_adj.xlsx</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Table with row headers in column A, and column headers in rows 8 through 11." size="764" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="V_String" />
+                <Field name="F2" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="V_String" />
+                <Field name="F3" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="V_String" />
+                <Field name="F6" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="Double" />
+                <Field name="F7" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="V_String" />
+                <Field name="F8" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="V_String" />
+                <Field name="F9" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="V_String" />
+                <Field name="F10" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="V_String" />
+                <Field name="F11" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="Double" />
+                <Field name="F12" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="Double" />
+                <Field name="F13" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="Double" />
+                <Field name="F14" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="Double" />
+                <Field name="F15" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_households\hh6_avg_pop_hh_fam_1940_2022_adj.xlsx" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>H_tables_household_tables</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="02d3d44d-67ab-4cb5-86af-cf92d2a051ff" />
+      <Telemetry>
+        <PreviousWorkflowId value="62aa91f0-44da-4b18-973c-52c281f71aaf" />
+        <OriginWorkflowId value="62aa91f0-44da-4b18-973c-52c281f71aaf" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

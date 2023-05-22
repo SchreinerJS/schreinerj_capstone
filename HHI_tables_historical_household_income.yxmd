@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="185">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="17" y="8597" width="341" height="165" />
+        <Position x="71" y="8623" width="346" height="165" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -21,12 +21,12 @@
       <ChildNodes>
         <Node ToolID="186">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="42" y="8646" />
+            <Position x="96" y="8672" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Passwords />
-              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv</File>
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv</File>
               <FormatSpecificOptions>
                 <HeaderRow>True</HeaderRow>
                 <IgnoreErrors>False</IgnoreErrors>
@@ -45,24 +45,21 @@
               <DefaultAnnotationText>min_wage.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="State" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv" type="V_String" />
-                <Field name="Date of Increase" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv" type="V_String" />
-                <Field name="Notes" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv" type="V_String" />
-                <Field name="Minimum Wage" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv" type="V_String" />
-                <Field name="Wage Note 1" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv" type="V_String" />
-                <Field name="Minimum Wage1" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv" type="V_String" />
-                <Field name="Wage Note 2" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv" type="V_String" />
-                <Field name="Minimum Wage2" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv" type="V_String" />
-                <Field name="Wage Note 3" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv" type="V_String" />
-                <Field name="Tipped Minimum" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv" type="V_String" />
-                <Field name="Tipped Min Note 1" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv" type="V_String" />
-                <Field name="Tipped Minimum1" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv" type="V_String" />
-                <Field name="Tipped Min Note 2" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage.csv" type="V_String" />
+                <Field name="State" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv" type="V_String" />
+                <Field name="Date of Increase" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv" type="V_String" />
+                <Field name="Notes" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv" type="V_String" />
+                <Field name="Minimum Wage" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv" type="V_String" />
+                <Field name="Wage Note 1" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv" type="V_String" />
+                <Field name="Minimum Wage1" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv" type="V_String" />
+                <Field name="Wage Note 2" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv" type="V_String" />
+                <Field name="Minimum Wage2" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv" type="V_String" />
+                <Field name="Wage Note 3" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv" type="V_String" />
+                <Field name="Tipped Minimum" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv" type="V_String" />
+                <Field name="Tipped Min Note 1" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv" type="V_String" />
+                <Field name="Tipped Minimum1" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv" type="V_String" />
+                <Field name="Tipped Min Note 2" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\webscraping\min_wage.csv" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -70,7 +67,7 @@
         </Node>
         <Node ToolID="187">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="126" y="8646" />
+            <Position x="180" y="8672" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -103,11 +100,11 @@
         </Node>
         <Node ToolID="343">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="234" y="8646" />
+            <Position x="288" y="8672" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\HHI\min_wage_state_webscraping.csv</File>
+              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\Webscraping\min_wage_state_webscraping1.csv</File>
               <Passwords />
               <Disable>False</Disable>
               <FormatSpecificOptions>
@@ -122,12 +119,9 @@
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>min_wage_state_webscraping.csv</DefaultAnnotationText>
+              <DefaultAnnotationText>min_wage_state_webscraping1.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
@@ -135,7 +129,7 @@
     </Node>
     <Node ToolID="144">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1085" y="3773" width="549" height="195" />
+        <Position x="1139" y="3799" width="549" height="195" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -153,7 +147,7 @@
       <ChildNodes>
         <Node ToolID="146">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1110" y="3822" />
+            <Position x="1164" y="3848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -186,7 +180,7 @@ Query=`size_all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="147">
           <GuiSettings>
-            <Position x="1206" y="3822" />
+            <Position x="1260" y="3848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -202,7 +196,7 @@ Query=`size_all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="148">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1302" y="3822" />
+            <Position x="1356" y="3848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -228,7 +222,7 @@ Query=`size_all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="149">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1398" y="3822" />
+            <Position x="1452" y="3848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -247,7 +241,7 @@ Query=`size_all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="337">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1506" y="3822" />
+            <Position x="1560" y="3848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -269,9 +263,6 @@ Query=`size_all`</DefaultAnnotationText>
               <DefaultAnnotationText>H11ar_avg_size_hh_histhhinc.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
@@ -279,7 +270,7 @@ Query=`size_all`</DefaultAnnotationText>
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="41" y="3005" width="505" height="756" />
+        <Position x="95" y="3031" width="505" height="756" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -297,7 +288,7 @@ Query=`size_all`</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="56">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="102" y="3054" width="395" height="120" />
+            <Position x="156" y="3080" width="395" height="120" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -324,7 +315,7 @@ Source: Congressional Budget Office,  https://www.cbo.gov/publication/58353
         </Node>
         <Node ToolID="57">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="66" y="3210" />
+            <Position x="120" y="3236" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -363,7 +354,7 @@ Query=`Income_shares_historical_qu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="58">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="77" y="3390" />
+            <Position x="131" y="3416" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -402,7 +393,7 @@ Query=`avg_after_tax_income_quinti...</DefaultAnnotationText>
         </Node>
         <Node ToolID="59">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="78" y="3570" />
+            <Position x="132" y="3596" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -441,7 +432,7 @@ Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
         </Node>
         <Node ToolID="123">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="173" y="3198" />
+            <Position x="227" y="3224" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -474,7 +465,7 @@ Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
         </Node>
         <Node ToolID="124">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="258" y="3198" />
+            <Position x="312" y="3224" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -492,7 +483,7 @@ Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
         </Node>
         <Node ToolID="126">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="186" y="3378" />
+            <Position x="240" y="3404" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -525,7 +516,7 @@ Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
         </Node>
         <Node ToolID="127">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="294" y="3378" />
+            <Position x="348" y="3404" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -543,7 +534,7 @@ Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
         </Node>
         <Node ToolID="128">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="186" y="3558" />
+            <Position x="240" y="3584" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -576,7 +567,7 @@ Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
         </Node>
         <Node ToolID="129">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="269" y="3558" />
+            <Position x="323" y="3584" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -594,7 +585,7 @@ Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
         </Node>
         <Node ToolID="334">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="414" y="3198" />
+            <Position x="468" y="3224" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -616,15 +607,12 @@ Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
               <DefaultAnnotationText>income_shares_hist_quintiles_toppercentiles_tpc.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
         <Node ToolID="335">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="414" y="3378" />
+            <Position x="468" y="3404" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -646,15 +634,12 @@ Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
               <DefaultAnnotationText>income_shares_hist_avg_aftertax_quintiles_toppercentiles_tpc.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
         <Node ToolID="336">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="414" y="3558" />
+            <Position x="468" y="3584" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -676,9 +661,6 @@ Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
               <DefaultAnnotationText>income_shares_hist_perc_aftertax_quintiles_toppercentiles_tpc.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
@@ -686,7 +668,7 @@ Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
     </Node>
     <Node ToolID="131">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="5" y="5141" width="864" height="1452" />
+        <Position x="59" y="5167" width="1014" height="1462" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -704,7 +686,7 @@ Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="189">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="53" y="5370" />
+            <Position x="107" y="5396" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -721,9 +703,6 @@ Query=`share_of_aftertax_income_pe...</DefaultAnnotationText>
 Query=`one`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Number of earners and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h12ar_adj.xlsx|||`one`" type="V_String" />
@@ -739,7 +718,7 @@ Query=`one`</DefaultAnnotationText>
         </Node>
         <Node ToolID="190">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="41" y="5562" />
+            <Position x="94" y="5588" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -756,9 +735,6 @@ Query=`one`</DefaultAnnotationText>
 Query=`two`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Number of earners and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h12ar_adj.xlsx|||`two`" type="V_String" />
@@ -774,7 +750,7 @@ Query=`two`</DefaultAnnotationText>
         </Node>
         <Node ToolID="191">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="42" y="5190" />
+            <Position x="95" y="5216" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -791,9 +767,6 @@ Query=`two`</DefaultAnnotationText>
 Query=`zero`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Number of earners and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h12ar_adj.xlsx|||`zero`" type="V_String" />
@@ -809,7 +782,7 @@ Query=`zero`</DefaultAnnotationText>
         </Node>
         <Node ToolID="192">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="42" y="5742" />
+            <Position x="96" y="5768" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -826,9 +799,6 @@ Query=`zero`</DefaultAnnotationText>
 Query=`three`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Number of earners and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h12ar_adj.xlsx|||`three`" type="V_String" />
@@ -844,7 +814,7 @@ Query=`three`</DefaultAnnotationText>
         </Node>
         <Node ToolID="193">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="30" y="5910" />
+            <Position x="84" y="5936" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -861,9 +831,6 @@ Query=`three`</DefaultAnnotationText>
 Query=`four_or_more`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Number of earners and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h12ar_adj.xlsx|||`four_or_more`" type="V_String" />
@@ -879,7 +846,7 @@ Query=`four_or_more`</DefaultAnnotationText>
         </Node>
         <Node ToolID="197">
           <GuiSettings>
-            <Position x="114" y="5190" />
+            <Position x="167" y="5216" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -895,7 +862,7 @@ Query=`four_or_more`</DefaultAnnotationText>
         </Node>
         <Node ToolID="198">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="198" y="5190" />
+            <Position x="252" y="5216" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -921,7 +888,7 @@ Query=`four_or_more`</DefaultAnnotationText>
         </Node>
         <Node ToolID="199">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="282" y="5190" />
+            <Position x="335" y="5216" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -943,7 +910,7 @@ Year = REGEX_Replace([Year], "\s*\(\d...</DefaultAnnotationText>
         </Node>
         <Node ToolID="200">
           <GuiSettings>
-            <Position x="126" y="5370" />
+            <Position x="180" y="5396" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -959,7 +926,7 @@ Year = REGEX_Replace([Year], "\s*\(\d...</DefaultAnnotationText>
         </Node>
         <Node ToolID="201">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="198" y="5370" />
+            <Position x="252" y="5396" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -985,7 +952,7 @@ Year = REGEX_Replace([Year], "\s*\(\d...</DefaultAnnotationText>
         </Node>
         <Node ToolID="202">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="294" y="5370" />
+            <Position x="348" y="5396" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1007,7 +974,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{...</DefaultAnnotationText>
         </Node>
         <Node ToolID="203">
           <GuiSettings>
-            <Position x="114" y="5562" />
+            <Position x="167" y="5588" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1023,7 +990,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{...</DefaultAnnotationText>
         </Node>
         <Node ToolID="204">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="185" y="5562" />
+            <Position x="239" y="5588" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1049,7 +1016,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{...</DefaultAnnotationText>
         </Node>
         <Node ToolID="205">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="281" y="5562" />
+            <Position x="335" y="5588" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1071,7 +1038,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{...</DefaultAnnotationText>
         </Node>
         <Node ToolID="206">
           <GuiSettings>
-            <Position x="113" y="5742" />
+            <Position x="167" y="5768" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1087,7 +1054,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{...</DefaultAnnotationText>
         </Node>
         <Node ToolID="207">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="185" y="5742" />
+            <Position x="239" y="5768" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1113,7 +1080,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{...</DefaultAnnotationText>
         </Node>
         <Node ToolID="208">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="282" y="5742" />
+            <Position x="336" y="5768" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1135,7 +1102,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="209">
           <GuiSettings>
-            <Position x="102" y="5910" />
+            <Position x="156" y="5936" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1151,7 +1118,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="210">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="174" y="5910" />
+            <Position x="228" y="5936" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1177,7 +1144,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="211">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="269" y="5910" />
+            <Position x="323" y="5936" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1199,7 +1166,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="213">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="42" y="6090" />
+            <Position x="96" y="6116" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1231,7 +1198,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="214">
           <GuiSettings>
-            <Position x="114" y="6090" />
+            <Position x="168" y="6116" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1247,7 +1214,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="215">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="197" y="6090" />
+            <Position x="251" y="6116" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1273,7 +1240,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="216">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="294" y="6090" />
+            <Position x="347" y="6116" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1292,7 +1259,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="256">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="402" y="5286" />
+            <Position x="456" y="5312" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1311,7 +1278,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="257">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="438" y="5442" />
+            <Position x="492" y="5468" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1330,7 +1297,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="258">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="498" y="5574" />
+            <Position x="552" y="5600" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1349,7 +1316,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="259">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="558" y="5814" />
+            <Position x="612" y="5840" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1368,7 +1335,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="260">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="606" y="5982" />
+            <Position x="660" y="6008" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -1410,7 +1377,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="261">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="714" y="6306" />
+            <Position x="768" y="6332" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1434,7 +1401,7 @@ Perc_diff_med = ROUND(([Median_all]-[Median...</DefaultAnnotationText>
         </Node>
         <Node ToolID="263">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="690" y="6174" />
+            <Position x="744" y="6200" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1452,7 +1419,7 @@ Perc_diff_med = ROUND(([Median_all]-[Median...</DefaultAnnotationText>
         </Node>
         <Node ToolID="264">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="42" y="6222" />
+            <Position x="95" y="6248" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1476,9 +1443,6 @@ Perc_diff_med = ROUND(([Median_all]-[Median...</DefaultAnnotationText>
               <DefaultAnnotationText>real_median_hh_inc_1984-2021.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="DATE" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\fred\real_median_hh_inc_1984-2021.csv" type="V_String" />
@@ -1490,7 +1454,7 @@ Perc_diff_med = ROUND(([Median_all]-[Median...</DefaultAnnotationText>
         </Node>
         <Node ToolID="265">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="150" y="6222" />
+            <Position x="204" y="6248" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1512,7 +1476,7 @@ Perc_diff_med = ROUND(([Median_all]-[Median...</DefaultAnnotationText>
         </Node>
         <Node ToolID="266">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="666" y="6054" />
+            <Position x="720" y="6080" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -1543,11 +1507,11 @@ Perc_diff_med = ROUND(([Median_all]-[Median...</DefaultAnnotationText>
         </Node>
         <Node ToolID="339">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="738" y="6462" />
+            <Position x="942" y="6498" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\HHI\H12_mean_med_num_earners_histhhinc.csv</File>
+              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\HHI\H12_mean_med_num_earners_perc_hh_histhhinc.csv</File>
               <Passwords />
               <Disable>False</Disable>
               <FormatSpecificOptions>
@@ -1562,20 +1526,51 @@ Perc_diff_med = ROUND(([Median_all]-[Median...</DefaultAnnotationText>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>H12_mean_med_num_earners_histhhinc.csv</DefaultAnnotationText>
+              <DefaultAnnotationText>H12_mean_med_num_earners_perc_hh_histhhinc.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="344">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="870" y="6354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Year" />
+                <Field field="Earners (txt)" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Year" />
+                <Field field="Earners (txt)" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
+                    <SelectField field="Right_Earners (txt)" selected="False" rename="Right_Earners (txt)" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
         </Node>
       </ChildNodes>
     </Node>
     <Node ToolID="130">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="0" y="3773" width="1036" height="1308" />
+        <Position x="54" y="3799" width="1036" height="1308" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1593,7 +1588,7 @@ Perc_diff_med = ROUND(([Median_all]-[Median...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="133">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="72" y="3822" />
+            <Position x="126" y="3848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1610,9 +1605,6 @@ Perc_diff_med = ROUND(([Median_all]-[Median...</DefaultAnnotationText>
 Query=`size_all`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Size of Household&#xA;and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h11ar_adj.xlsx|||`size_all`" type="V_String" />
@@ -1629,7 +1621,7 @@ Query=`size_all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="136">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="61" y="4002" />
+            <Position x="115" y="4028" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1646,9 +1638,6 @@ Query=`size_all`</DefaultAnnotationText>
 Query=`size_two`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Size of Household&#xA;and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h11ar_adj.xlsx|||`size_two`" type="V_String" />
@@ -1665,7 +1654,7 @@ Query=`size_two`</DefaultAnnotationText>
         </Node>
         <Node ToolID="137">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="49" y="4194" />
+            <Position x="103" y="4220" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1682,9 +1671,6 @@ Query=`size_two`</DefaultAnnotationText>
 Query=`size_three`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Size of Household&#xA;and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h11ar_adj.xlsx|||`size_three`" type="V_String" />
@@ -1701,7 +1687,7 @@ Query=`size_three`</DefaultAnnotationText>
         </Node>
         <Node ToolID="138">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="48" y="4374" />
+            <Position x="102" y="4400" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1718,9 +1704,6 @@ Query=`size_three`</DefaultAnnotationText>
 Query=`size_four`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Size of Household&#xA;and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h11ar_adj.xlsx|||`size_four`" type="V_String" />
@@ -1737,7 +1720,7 @@ Query=`size_four`</DefaultAnnotationText>
         </Node>
         <Node ToolID="139">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="37" y="4554" />
+            <Position x="91" y="4580" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1754,9 +1737,6 @@ Query=`size_four`</DefaultAnnotationText>
 Query=`size_five`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Size of Household&#xA;and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h11ar_adj.xlsx|||`size_five`" type="V_String" />
@@ -1773,7 +1753,7 @@ Query=`size_five`</DefaultAnnotationText>
         </Node>
         <Node ToolID="140">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="36" y="4722" />
+            <Position x="90" y="4748" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1790,9 +1770,6 @@ Query=`size_five`</DefaultAnnotationText>
 Query=`size_six`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Size of Household&#xA;and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h11ar_adj.xlsx|||`size_six`" type="V_String" />
@@ -1809,7 +1786,7 @@ Query=`size_six`</DefaultAnnotationText>
         </Node>
         <Node ToolID="141">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="25" y="4890" />
+            <Position x="79" y="4916" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1826,9 +1803,6 @@ Query=`size_six`</DefaultAnnotationText>
 Query=`size_seven`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Size of Household&#xA;and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h11ar_adj.xlsx|||`size_seven`" type="V_String" />
@@ -1845,7 +1819,7 @@ Query=`size_seven`</DefaultAnnotationText>
         </Node>
         <Node ToolID="142">
           <GuiSettings>
-            <Position x="157" y="3822" />
+            <Position x="211" y="3848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1856,15 +1830,12 @@ Query=`size_seven`</DefaultAnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings Macro="SelectRecords.yxmc" />
         </Node>
         <Node ToolID="143">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="253" y="3822" />
+            <Position x="307" y="3848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1891,7 +1862,7 @@ Query=`size_seven`</DefaultAnnotationText>
         </Node>
         <Node ToolID="145">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="337" y="3822" />
+            <Position x="391" y="3848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1913,7 +1884,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="150">
           <GuiSettings>
-            <Position x="157" y="4002" />
+            <Position x="211" y="4028" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1929,7 +1900,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="151">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="252" y="4002" />
+            <Position x="306" y="4028" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1956,7 +1927,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="152">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="337" y="4002" />
+            <Position x="391" y="4028" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1978,7 +1949,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="153">
           <GuiSettings>
-            <Position x="144" y="4194" />
+            <Position x="198" y="4220" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1994,7 +1965,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="154">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="240" y="4194" />
+            <Position x="294" y="4220" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2021,7 +1992,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="155">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="325" y="4194" />
+            <Position x="379" y="4220" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2043,7 +2014,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="156">
           <GuiSettings>
-            <Position x="145" y="4374" />
+            <Position x="199" y="4400" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2059,7 +2030,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="157">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="241" y="4374" />
+            <Position x="295" y="4400" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2086,7 +2057,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="158">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="313" y="4374" />
+            <Position x="367" y="4400" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2108,7 +2079,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="159">
           <GuiSettings>
-            <Position x="133" y="4554" />
+            <Position x="187" y="4580" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2124,7 +2095,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="160">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="229" y="4554" />
+            <Position x="283" y="4580" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2151,7 +2122,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="161">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="301" y="4554" />
+            <Position x="355" y="4580" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2173,7 +2144,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="162">
           <GuiSettings>
-            <Position x="121" y="4722" />
+            <Position x="175" y="4748" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2189,7 +2160,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="163">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="217" y="4722" />
+            <Position x="271" y="4748" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2216,7 +2187,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="164">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="288" y="4722" />
+            <Position x="342" y="4748" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2238,7 +2209,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="165">
           <GuiSettings>
-            <Position x="120" y="4890" />
+            <Position x="174" y="4916" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2254,7 +2225,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="166">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="217" y="4890" />
+            <Position x="271" y="4916" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2281,7 +2252,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="167">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="288" y="4890" />
+            <Position x="342" y="4916" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2303,7 +2274,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="168">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="473" y="3930" />
+            <Position x="527" y="3956" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2322,7 +2293,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="169">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="534" y="4074" />
+            <Position x="588" y="4100" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2341,7 +2312,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="170">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="582" y="4230" />
+            <Position x="636" y="4256" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2360,7 +2331,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="171">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="618" y="4422" />
+            <Position x="672" y="4448" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2379,7 +2350,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="172">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="654" y="4626" />
+            <Position x="708" y="4652" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2398,7 +2369,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="173">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="690" y="4830" />
+            <Position x="744" y="4856" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2417,7 +2388,7 @@ fam_size_nam...</DefaultAnnotationText>
         </Node>
         <Node ToolID="174">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="774" y="4830" />
+            <Position x="828" y="4856" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2437,7 +2408,7 @@ fam_size_num - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="338">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="906" y="4830" />
+            <Position x="960" y="4856" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2459,9 +2430,6 @@ fam_size_num - Ascending</DefaultAnnotationText>
               <DefaultAnnotationText>H11_mean_med_fam_size_histhhinc.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
@@ -2469,7 +2437,7 @@ fam_size_num - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="52" y="2765" width="515" height="210" />
+        <Position x="106" y="2791" width="517" height="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2487,7 +2455,7 @@ fam_size_num - Ascending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="18">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="77" y="2814" />
+            <Position x="131" y="2840" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2521,7 +2489,7 @@ Query=`share_aggregate`</DefaultAnnotationText>
         </Node>
         <Node ToolID="120">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="234" y="2814" />
+            <Position x="288" y="2840" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2549,7 +2517,7 @@ Query=`share_aggregate`</DefaultAnnotationText>
         </Node>
         <Node ToolID="121">
           <GuiSettings>
-            <Position x="162" y="2814" />
+            <Position x="216" y="2840" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2560,15 +2528,12 @@ Query=`share_aggregate`</DefaultAnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings Macro="SelectRecords.yxmc" />
         </Node>
         <Node ToolID="122">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="318" y="2814" />
+            <Position x="372" y="2840" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2587,11 +2552,11 @@ Query=`share_aggregate`</DefaultAnnotationText>
         </Node>
         <Node ToolID="333">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="438" y="2826" />
+            <Position x="492" y="2852" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\HHI\H021_share_income_shares_quintiles_histhhinc.csv</File>
+              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\HHI\H02_share_income_shares_quintiles_histhhinc.csv</File>
               <Passwords />
               <Disable>False</Disable>
               <FormatSpecificOptions>
@@ -2606,12 +2571,9 @@ Query=`share_aggregate`</DefaultAnnotationText>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>H021_share_income_shares_quintiles_histhhinc.csv</DefaultAnnotationText>
+              <DefaultAnnotationText>H02_share_income_shares_quintiles_histhhinc.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
@@ -2619,7 +2581,7 @@ Query=`share_aggregate`</DefaultAnnotationText>
     </Node>
     <Node ToolID="102">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="823" y="1247" width="622" height="413" />
+        <Position x="877" y="1273" width="622" height="413" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2637,7 +2599,7 @@ Query=`share_aggregate`</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="108">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="848" y="1296" />
+            <Position x="902" y="1322" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2656,7 +2618,7 @@ Query=`share_aggregate`</DefaultAnnotationText>
         </Node>
         <Node ToolID="109">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="848" y="1380" />
+            <Position x="902" y="1406" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2675,7 +2637,7 @@ Query=`share_aggregate`</DefaultAnnotationText>
         </Node>
         <Node ToolID="110">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="848" y="1476" />
+            <Position x="902" y="1502" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2694,7 +2656,7 @@ Query=`share_aggregate`</DefaultAnnotationText>
         </Node>
         <Node ToolID="111">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="848" y="1560" />
+            <Position x="902" y="1586" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2713,7 +2675,7 @@ Query=`share_aggregate`</DefaultAnnotationText>
         </Node>
         <Node ToolID="112">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="944" y="1332" />
+            <Position x="998" y="1358" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2732,7 +2694,7 @@ Query=`share_aggregate`</DefaultAnnotationText>
         </Node>
         <Node ToolID="115">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="1016" y="1416" />
+            <Position x="1070" y="1442" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2751,7 +2713,7 @@ Query=`share_aggregate`</DefaultAnnotationText>
         </Node>
         <Node ToolID="116">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="1100" y="1488" />
+            <Position x="1154" y="1514" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2770,7 +2732,7 @@ Query=`share_aggregate`</DefaultAnnotationText>
         </Node>
         <Node ToolID="117">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1196" y="1488" />
+            <Position x="1250" y="1514" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2790,7 +2752,7 @@ Race - Ascending</DefaultAnnotationText>
         </Node>
         <Node ToolID="332">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1314" y="1482" />
+            <Position x="1368" y="1508" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2812,9 +2774,6 @@ Race - Ascending</DefaultAnnotationText>
               <DefaultAnnotationText>H01ar_income_quintile_race_histhhinc.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
@@ -2822,7 +2781,7 @@ Race - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="55" y="2555" width="481" height="195" />
+        <Position x="109" y="2581" width="481" height="195" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2840,7 +2799,7 @@ Race - Ascending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="16">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="80" y="2604" />
+            <Position x="134" y="2630" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2873,7 +2832,7 @@ Query=`Asian_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="90">
           <GuiSettings>
-            <Position x="176" y="2604" />
+            <Position x="230" y="2630" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2889,7 +2848,7 @@ Query=`Asian_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="91">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="272" y="2604" />
+            <Position x="326" y="2630" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2916,7 +2875,7 @@ Query=`Asian_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="92">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="368" y="2604" />
+            <Position x="422" y="2630" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2935,7 +2894,7 @@ Query=`Asian_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="114">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="452" y="2604" />
+            <Position x="506" y="2630" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2958,7 +2917,7 @@ Query=`Asian_alone`</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="55" y="2327" width="493" height="195" />
+        <Position x="109" y="2353" width="493" height="195" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2976,7 +2935,7 @@ Query=`Asian_alone`</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="14">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="80" y="2376" />
+            <Position x="134" y="2402" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3009,7 +2968,7 @@ Query=`hispanic`</DefaultAnnotationText>
         </Node>
         <Node ToolID="82">
           <GuiSettings>
-            <Position x="176" y="2376" />
+            <Position x="230" y="2402" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3025,7 +2984,7 @@ Query=`hispanic`</DefaultAnnotationText>
         </Node>
         <Node ToolID="83">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="272" y="2376" />
+            <Position x="326" y="2402" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3052,7 +3011,7 @@ Query=`hispanic`</DefaultAnnotationText>
         </Node>
         <Node ToolID="84">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="368" y="2376" />
+            <Position x="422" y="2402" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3071,7 +3030,7 @@ Query=`hispanic`</DefaultAnnotationText>
         </Node>
         <Node ToolID="113">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="464" y="2376" />
+            <Position x="518" y="2402" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3094,7 +3053,7 @@ Query=`hispanic`</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="55" y="1739" width="721" height="567" />
+        <Position x="109" y="1765" width="721" height="567" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3112,7 +3071,7 @@ Query=`hispanic`</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="8">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="80" y="1788" />
+            <Position x="134" y="1814" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3145,7 +3104,7 @@ Query=`White`</DefaultAnnotationText>
         </Node>
         <Node ToolID="9">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="80" y="1896" />
+            <Position x="134" y="1922" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3178,7 +3137,7 @@ Query=`White_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="60">
           <GuiSettings>
-            <Position x="188" y="1788" />
+            <Position x="242" y="1814" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3194,7 +3153,7 @@ Query=`White_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="61">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="284" y="1788" />
+            <Position x="338" y="1814" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3221,7 +3180,7 @@ Query=`White_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="62">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="380" y="1788" />
+            <Position x="434" y="1814" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3240,7 +3199,7 @@ Query=`White_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="63">
           <GuiSettings>
-            <Position x="187" y="1896" />
+            <Position x="241" y="1922" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3256,7 +3215,7 @@ Query=`White_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="64">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="272" y="1896" />
+            <Position x="326" y="1922" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3283,7 +3242,7 @@ Query=`White_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="65">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="380" y="1896" />
+            <Position x="434" y="1922" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3302,7 +3261,7 @@ Query=`White_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="66">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="488" y="1848" />
+            <Position x="542" y="1874" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3321,7 +3280,7 @@ Query=`White_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="67">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="668" y="1848" />
+            <Position x="722" y="1874" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3342,7 +3301,7 @@ Query=`White_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="68">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="572" y="1848" />
+            <Position x="626" y="1874" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3360,7 +3319,7 @@ Query=`White_alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="69">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="80" y="2028" />
+            <Position x="134" y="2054" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3393,7 +3352,7 @@ Query=`wnh_quintiles_1972_2021`</DefaultAnnotationText>
         </Node>
         <Node ToolID="70">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="392" y="2028" />
+            <Position x="446" y="2054" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3412,7 +3371,7 @@ Query=`wnh_quintiles_1972_2021`</DefaultAnnotationText>
         </Node>
         <Node ToolID="71">
           <GuiSettings>
-            <Position x="188" y="2028" />
+            <Position x="242" y="2054" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3428,7 +3387,7 @@ Query=`wnh_quintiles_1972_2021`</DefaultAnnotationText>
         </Node>
         <Node ToolID="72">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="284" y="2028" />
+            <Position x="338" y="2054" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3455,7 +3414,7 @@ Query=`wnh_quintiles_1972_2021`</DefaultAnnotationText>
         </Node>
         <Node ToolID="73">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="80" y="2160" />
+            <Position x="134" y="2186" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3488,7 +3447,7 @@ Query=`wnh_quintiles_2021dollars_2...</DefaultAnnotationText>
         </Node>
         <Node ToolID="74">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="392" y="2160" />
+            <Position x="446" y="2186" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3507,7 +3466,7 @@ Query=`wnh_quintiles_2021dollars_2...</DefaultAnnotationText>
         </Node>
         <Node ToolID="75">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="284" y="2160" />
+            <Position x="338" y="2186" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3534,7 +3493,7 @@ Query=`wnh_quintiles_2021dollars_2...</DefaultAnnotationText>
         </Node>
         <Node ToolID="76">
           <GuiSettings>
-            <Position x="187" y="2160" />
+            <Position x="241" y="2186" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3550,7 +3509,7 @@ Query=`wnh_quintiles_2021dollars_2...</DefaultAnnotationText>
         </Node>
         <Node ToolID="77">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="512" y="2088" />
+            <Position x="566" y="2114" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3569,7 +3528,7 @@ Query=`wnh_quintiles_2021dollars_2...</DefaultAnnotationText>
         </Node>
         <Node ToolID="78">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="596" y="2088" />
+            <Position x="650" y="2114" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3587,7 +3546,7 @@ Query=`wnh_quintiles_2021dollars_2...</DefaultAnnotationText>
         </Node>
         <Node ToolID="79">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="692" y="2088" />
+            <Position x="746" y="2114" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3610,11 +3569,11 @@ Query=`wnh_quintiles_2021dollars_2...</DefaultAnnotationText>
     </Node>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="16" y="29" width="734" height="733" />
+        <Position x="70" y="54" width="735" height="735" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Caption>H01ar_IncomeQuartiles_2021dollars_1967-2021_all_histhhinc</Caption>
+          <Caption>H01ar_IncomeFifths_2021dollars_1967-2021_all_histhhinc</Caption>
           <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
           <Disabled value="True" />
           <Folded value="False" />
@@ -3628,7 +3587,7 @@ Query=`wnh_quintiles_2021dollars_2...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="4">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="41" y="270" />
+            <Position x="95" y="295" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3661,7 +3620,7 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="19">
           <GuiSettings>
-            <Position x="149" y="270" />
+            <Position x="203" y="296" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3677,7 +3636,7 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="20">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="234" y="270" />
+            <Position x="288" y="296" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3704,7 +3663,7 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="24">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="42" y="78" width="636" height="149" />
+            <Position x="102" y="103" width="636" height="149" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3734,7 +3693,7 @@ Footnotes are available at &lt;www.census.gov/topics/income-poverty/income/guida
         </Node>
         <Node ToolID="25">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="42" y="462" width="684" height="276" />
+            <Position x="96" y="488" width="684" height="276" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3768,7 +3727,7 @@ Tennessee only of those states with no state/city income tax</Text>
         </Node>
         <Node ToolID="27">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="318" y="270" />
+            <Position x="372" y="296" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3787,7 +3746,7 @@ Tennessee only of those states with no state/city income tax</Text>
         </Node>
         <Node ToolID="107">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="510" y="270" />
+            <Position x="564" y="296" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3809,9 +3768,6 @@ Tennessee only of those states with no state/city income tax</Text>
               <DefaultAnnotationText>H01ar_IncomeQuartiles_2021dollars_1967-2021_all_histhhinc.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
@@ -3819,7 +3775,7 @@ Tennessee only of those states with no state/city income tax</Text>
     </Node>
     <Node ToolID="35">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="16" y="784" width="1488" height="438" />
+        <Position x="70" y="810" width="1489" height="439" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3837,7 +3793,7 @@ Tennessee only of those states with no state/city income tax</Text>
       <ChildNodes>
         <Node ToolID="36">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="41" y="834" />
+            <Position x="95" y="860" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3870,7 +3826,7 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="37">
           <GuiSettings>
-            <Position x="150" y="833" />
+            <Position x="204" y="859" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3886,7 +3842,7 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="38">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="234" y="833" />
+            <Position x="288" y="859" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3913,7 +3869,7 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="39">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="330" y="834" />
+            <Position x="384" y="860" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3932,7 +3888,7 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="48">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="438" y="845" />
+            <Position x="492" y="871" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -3964,7 +3920,7 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="50">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="426" y="990" />
+            <Position x="480" y="1016" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3986,7 +3942,7 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="80">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="558" y="858" />
+            <Position x="612" y="884" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -4021,7 +3977,7 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="81">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1158" y="882" />
+            <Position x="1212" y="908" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4039,7 +3995,7 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="85">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="810" y="870" />
+            <Position x="864" y="896" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -4075,7 +4031,7 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="94">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="930" y="882" />
+            <Position x="984" y="908" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -4112,7 +4068,7 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="95">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-            <Position x="1062" y="1002" />
+            <Position x="1116" y="1028" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4141,14 +4097,14 @@ Query=`quartiles_income_2021dollar...</DefaultAnnotationText>
         </Node>
         <Node ToolID="96">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1254" y="1002" />
+            <Position x="1308" y="1028" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <FormulaFields>
                 <FormulaField expression="Replace([DimRace], &quot;_Households&quot;, &quot;&quot;)" field="DimRace" size="28" type="String" />
                 <FormulaField expression="Replace([DimRace], &quot;White_NonHispanic&quot;, &quot;White,NonHispanic&quot;)" field="DimRace" size="28" type="String" />
-                <FormulaField expression="ROUND([Race (count)]/[Total Households], .01)" field="Perc_families_surveyed" size="4" type="Float" />
+                <FormulaField expression="[Race (count)]/[Total Households]" field="Perc_families_surveyed" size="4" type="Float" />
               </FormulaFields>
             </Configuration>
             <Annotation DisplayMode="0">
@@ -4162,7 +4118,7 @@ DimRace = Replace([DimRace], "Wh...</DefaultAnnotationText>
         </Node>
         <Node ToolID="97">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1158" y="1002" />
+            <Position x="1212" y="1028" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4184,7 +4140,7 @@ DimRace = Replace([DimRace], "Wh...</DefaultAnnotationText>
         </Node>
         <Node ToolID="99">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="1062" y="882" />
+            <Position x="1116" y="908" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4225,7 +4181,7 @@ DimRace = Replace([DimRace], "Wh...</DefaultAnnotationText>
         </Node>
         <Node ToolID="331">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1374" y="1002" />
+            <Position x="1428" y="1028" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4247,9 +4203,6 @@ DimRace = Replace([DimRace], "Wh...</DefaultAnnotationText>
               <DefaultAnnotationText>H01ar_perc_fam_surv_by_race_all_histhhinc.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
@@ -4257,7 +4210,7 @@ DimRace = Replace([DimRace], "Wh...</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54" y="1247" width="674" height="471" />
+        <Position x="108" y="1273" width="674" height="471" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -4275,7 +4228,7 @@ DimRace = Replace([DimRace], "Wh...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="5">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="79" y="1296" />
+            <Position x="133" y="1322" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4308,7 +4261,7 @@ Query=`Black`</DefaultAnnotationText>
         </Node>
         <Node ToolID="6">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="79" y="1404" />
+            <Position x="133" y="1430" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4341,7 +4294,7 @@ Query=`Black_Alone`</DefaultAnnotationText>
         </Node>
         <Node ToolID="7">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="80" y="1572" />
+            <Position x="134" y="1598" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4374,7 +4327,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
         </Node>
         <Node ToolID="28">
           <GuiSettings>
-            <Position x="187" y="1296" />
+            <Position x="241" y="1322" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4390,7 +4343,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
         </Node>
         <Node ToolID="29">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="284" y="1296" />
+            <Position x="338" y="1322" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4417,7 +4370,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
         </Node>
         <Node ToolID="30">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="380" y="1296" />
+            <Position x="434" y="1322" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4436,7 +4389,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
         </Node>
         <Node ToolID="40">
           <GuiSettings>
-            <Position x="188" y="1404" />
+            <Position x="242" y="1430" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4452,7 +4405,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
         </Node>
         <Node ToolID="41">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="284" y="1404" />
+            <Position x="338" y="1430" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4479,7 +4432,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
         </Node>
         <Node ToolID="42">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="380" y="1404" />
+            <Position x="434" y="1430" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4498,7 +4451,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
         </Node>
         <Node ToolID="43">
           <GuiSettings>
-            <Position x="187" y="1572" />
+            <Position x="241" y="1598" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4514,7 +4467,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
         </Node>
         <Node ToolID="44">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="296" y="1572" />
+            <Position x="350" y="1598" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4541,7 +4494,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
         </Node>
         <Node ToolID="45">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="404" y="1572" />
+            <Position x="458" y="1598" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4560,7 +4513,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
         </Node>
         <Node ToolID="46">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="464" y="1344" />
+            <Position x="518" y="1370" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4579,7 +4532,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
         </Node>
         <Node ToolID="47">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="548" y="1344" />
+            <Position x="602" y="1370" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4597,7 +4550,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
         </Node>
         <Node ToolID="49">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="644" y="1344" />
+            <Position x="698" y="1370" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4618,7 +4571,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
         </Node>
         <Node ToolID="54">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="80" y="1524" width="444" height="40" />
+            <Position x="134" y="1550" width="444" height="40" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4640,7 +4593,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
     </Node>
     <Node ToolID="245">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="893" y="5141" width="1035" height="1095" />
+        <Position x="1097" y="5165" width="1035" height="1095" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -4658,7 +4611,7 @@ Query=`Black_alone_or_in_combinati...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="218">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="941" y="5370" />
+            <Position x="1146" y="5394" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4690,7 +4643,7 @@ Query=`one`</DefaultAnnotationText>
         </Node>
         <Node ToolID="219">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="930" y="5562" />
+            <Position x="1134" y="5586" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4722,7 +4675,7 @@ Query=`two`</DefaultAnnotationText>
         </Node>
         <Node ToolID="220">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="930" y="5190" />
+            <Position x="1134" y="5214" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4754,7 +4707,7 @@ Query=`zero`</DefaultAnnotationText>
         </Node>
         <Node ToolID="221">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="930" y="5742" />
+            <Position x="1134" y="5766" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4786,7 +4739,7 @@ Query=`three`</DefaultAnnotationText>
         </Node>
         <Node ToolID="222">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="918" y="5910" />
+            <Position x="1122" y="5934" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4818,7 +4771,7 @@ Query=`four_or_more`</DefaultAnnotationText>
         </Node>
         <Node ToolID="225">
           <GuiSettings>
-            <Position x="1002" y="5190" />
+            <Position x="1206" y="5214" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4834,7 +4787,7 @@ Query=`four_or_more`</DefaultAnnotationText>
         </Node>
         <Node ToolID="226">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1086" y="5190" />
+            <Position x="1290" y="5214" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4860,7 +4813,7 @@ Query=`four_or_more`</DefaultAnnotationText>
         </Node>
         <Node ToolID="227">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1170" y="5190" />
+            <Position x="1374" y="5214" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4881,7 +4834,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="228">
           <GuiSettings>
-            <Position x="1014" y="5370" />
+            <Position x="1218" y="5394" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4897,7 +4850,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="229">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1086" y="5370" />
+            <Position x="1290" y="5394" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4923,7 +4876,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="230">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1158" y="5370" />
+            <Position x="1362" y="5394" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4944,7 +4897,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="231">
           <GuiSettings>
-            <Position x="1002" y="5562" />
+            <Position x="1206" y="5586" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4960,7 +4913,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="232">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1074" y="5562" />
+            <Position x="1278" y="5586" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4986,7 +4939,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="233">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1170" y="5562" />
+            <Position x="1374" y="5586" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5007,7 +4960,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="234">
           <GuiSettings>
-            <Position x="1002" y="5742" />
+            <Position x="1206" y="5766" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5023,7 +4976,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="235">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1086" y="5742" />
+            <Position x="1290" y="5766" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5049,7 +5002,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="236">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1170" y="5742" />
+            <Position x="1374" y="5766" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5070,7 +5023,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="237">
           <GuiSettings>
-            <Position x="990" y="5910" />
+            <Position x="1194" y="5934" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5086,7 +5039,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="238">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1074" y="5910" />
+            <Position x="1278" y="5934" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5112,7 +5065,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="239">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1158" y="5910" />
+            <Position x="1362" y="5934" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5133,7 +5086,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2}\)", "")
         </Node>
         <Node ToolID="241">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="929" y="6090" />
+            <Position x="1133" y="6114" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5165,7 +5118,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="242">
           <GuiSettings>
-            <Position x="1001" y="6090" />
+            <Position x="1206" y="6114" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5181,7 +5134,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="243">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1073" y="6090" />
+            <Position x="1278" y="6114" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5207,7 +5160,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="244">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1158" y="6090" />
+            <Position x="1361" y="6114" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5226,7 +5179,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="246">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="1302" y="5298" />
+            <Position x="1506" y="5322" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5245,7 +5198,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="247">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="1362" y="5478" />
+            <Position x="1566" y="5502" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5264,7 +5217,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="248">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="1422" y="5646" />
+            <Position x="1626" y="5670" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5283,7 +5236,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="249">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="1482" y="5826" />
+            <Position x="1686" y="5850" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5302,7 +5255,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="250">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1542" y="5994" />
+            <Position x="1746" y="6018" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -5337,7 +5290,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="251">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1614" y="5994" />
+            <Position x="1818" y="6018" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5356,7 +5309,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="340">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1806" y="5994" />
+            <Position x="2010" y="6018" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5378,15 +5331,12 @@ Query=`all`</DefaultAnnotationText>
               <DefaultAnnotationText>H12_perc_hh_num_earners.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
         <Node ToolID="341">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1710" y="5994" />
+            <Position x="1914" y="6018" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5402,17 +5352,38 @@ Query=`all`</DefaultAnnotationText>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
         </Node>
+        <Node ToolID="345">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2010" y="6162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Earners" selected="True" rename="Earners (txt)" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
       </ChildNodes>
     </Node>
     <Node ToolID="132">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="4" y="6605" width="1548" height="1905" />
+        <Position x="58" y="6631" width="1549" height="1920" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Caption>h13_edu_hh_mean_med_1991_2021_histhhinc</Caption>
           <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
-          <Disabled value="True" />
+          <Disabled value="False" />
           <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
@@ -5424,7 +5395,7 @@ Query=`all`</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="325">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1158" y="8334" />
+            <Position x="1212" y="8360" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5442,7 +5413,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="324">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1086" y="8334" />
+            <Position x="1140" y="8360" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -5473,7 +5444,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="323">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="1014" y="8154" />
+            <Position x="1068" y="8180" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5492,7 +5463,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="322">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="954" y="7986" />
+            <Position x="1008" y="8012" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5511,7 +5482,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="321">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="870" y="7830" />
+            <Position x="924" y="7856" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5530,7 +5501,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="320">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="786" y="7650" />
+            <Position x="840" y="7676" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5549,7 +5520,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="319">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="726" y="7482" />
+            <Position x="780" y="7508" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5568,7 +5539,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="318">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="666" y="7326" />
+            <Position x="720" y="7352" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5587,7 +5558,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="317">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="606" y="7158" />
+            <Position x="660" y="7184" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5606,7 +5577,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="316">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="557" y="6990" />
+            <Position x="611" y="7016" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5625,7 +5596,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="315">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="510" y="6822" />
+            <Position x="564" y="6848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5644,7 +5615,7 @@ Query=`all`</DefaultAnnotationText>
         </Node>
         <Node ToolID="314">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="330" y="8154" />
+            <Position x="384" y="8180" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5664,7 +5635,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="313">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="234" y="8154" />
+            <Position x="288" y="8180" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5690,7 +5661,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="312">
           <GuiSettings>
-            <Position x="150" y="8154" />
+            <Position x="204" y="8180" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5706,7 +5677,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="311">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="342" y="7986" />
+            <Position x="396" y="8012" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5726,7 +5697,7 @@ Year = REGEX_Replace([Year], "\s*...</DefaultAnnotationText>
         </Node>
         <Node ToolID="310">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="246" y="7986" />
+            <Position x="300" y="8012" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5752,7 +5723,7 @@ Year = REGEX_Replace([Year], "\s*...</DefaultAnnotationText>
         </Node>
         <Node ToolID="309">
           <GuiSettings>
-            <Position x="149" y="7986" />
+            <Position x="203" y="8012" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5768,7 +5739,7 @@ Year = REGEX_Replace([Year], "\s*...</DefaultAnnotationText>
         </Node>
         <Node ToolID="308">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="341" y="7830" />
+            <Position x="395" y="7856" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5788,7 +5759,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{...</DefaultAnnotationText>
         </Node>
         <Node ToolID="307">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="245" y="7830" />
+            <Position x="299" y="7856" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5814,7 +5785,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{...</DefaultAnnotationText>
         </Node>
         <Node ToolID="306">
           <GuiSettings>
-            <Position x="149" y="7830" />
+            <Position x="203" y="7856" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5830,7 +5801,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{...</DefaultAnnotationText>
         </Node>
         <Node ToolID="305">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="353" y="7650" />
+            <Position x="407" y="7676" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5850,7 +5821,7 @@ Year = REGEX_Replace([Year],...</DefaultAnnotationText>
         </Node>
         <Node ToolID="304">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="258" y="7650" />
+            <Position x="312" y="7676" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5876,7 +5847,7 @@ Year = REGEX_Replace([Year],...</DefaultAnnotationText>
         </Node>
         <Node ToolID="303">
           <GuiSettings>
-            <Position x="161" y="7650" />
+            <Position x="215" y="7676" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5892,7 +5863,7 @@ Year = REGEX_Replace([Year],...</DefaultAnnotationText>
         </Node>
         <Node ToolID="302">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="366" y="7482" />
+            <Position x="420" y="7508" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5912,7 +5883,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="301">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="270" y="7482" />
+            <Position x="324" y="7508" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5938,7 +5909,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="300">
           <GuiSettings>
-            <Position x="174" y="7482" />
+            <Position x="228" y="7508" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5954,7 +5925,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="299">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="366" y="7326" />
+            <Position x="420" y="7352" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -5974,7 +5945,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="298">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="269" y="7326" />
+            <Position x="323" y="7352" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6000,7 +5971,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="297">
           <GuiSettings>
-            <Position x="174" y="7326" />
+            <Position x="228" y="7352" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6016,7 +5987,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="296">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="354" y="7158" />
+            <Position x="408" y="7184" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6036,7 +6007,7 @@ Year = REGEX_Replace([Year], ...</DefaultAnnotationText>
         </Node>
         <Node ToolID="295">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="270" y="7158" />
+            <Position x="324" y="7184" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6062,7 +6033,7 @@ Year = REGEX_Replace([Year], ...</DefaultAnnotationText>
         </Node>
         <Node ToolID="294">
           <GuiSettings>
-            <Position x="173" y="7158" />
+            <Position x="227" y="7184" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6078,7 +6049,7 @@ Year = REGEX_Replace([Year], ...</DefaultAnnotationText>
         </Node>
         <Node ToolID="293">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="366" y="6990" />
+            <Position x="420" y="7016" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6098,7 +6069,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="292">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="282" y="6990" />
+            <Position x="336" y="7016" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6124,7 +6095,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="291">
           <GuiSettings>
-            <Position x="186" y="6990" />
+            <Position x="240" y="7016" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6140,7 +6111,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="290">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="365" y="6822" />
+            <Position x="419" y="6848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6160,7 +6131,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="289">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="282" y="6822" />
+            <Position x="336" y="6848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6186,7 +6157,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="288">
           <GuiSettings>
-            <Position x="185" y="6822" />
+            <Position x="239" y="6848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6202,7 +6173,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="287">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="317" y="8334" />
+            <Position x="371" y="8360" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6221,7 +6192,7 @@ Year = REGEX_Replace([Year], "\s*\(\...</DefaultAnnotationText>
         </Node>
         <Node ToolID="286">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="365" y="6654" />
+            <Position x="419" y="6680" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6241,7 +6212,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2...</DefaultAnnotationText>
         </Node>
         <Node ToolID="285">
           <GuiSettings>
-            <Position x="185" y="6654" />
+            <Position x="239" y="6680" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6257,7 +6228,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2...</DefaultAnnotationText>
         </Node>
         <Node ToolID="284">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="281" y="6654" />
+            <Position x="335" y="6680" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6283,7 +6254,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2...</DefaultAnnotationText>
         </Node>
         <Node ToolID="283">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="209" y="8334" />
+            <Position x="263" y="8360" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6309,7 +6280,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2...</DefaultAnnotationText>
         </Node>
         <Node ToolID="282">
           <GuiSettings>
-            <Position x="113" y="8334" />
+            <Position x="167" y="8360" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6325,7 +6296,7 @@ Year = REGEX_Replace([Year], "\s*\(\d{2...</DefaultAnnotationText>
         </Node>
         <Node ToolID="281">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="29" y="8334" />
+            <Position x="83" y="8360" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6357,7 +6328,7 @@ Query=`totals`</DefaultAnnotationText>
         </Node>
         <Node ToolID="278">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="41" y="8154" />
+            <Position x="95" y="8180" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6374,9 +6345,6 @@ Query=`totals`</DefaultAnnotationText>
 Query=`doct_deg`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Educational attainment and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h13_adj.xlsx|||`doct_deg`" type="V_String" />
@@ -6392,7 +6360,7 @@ Query=`doct_deg`</DefaultAnnotationText>
         </Node>
         <Node ToolID="277">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="41" y="7986" />
+            <Position x="95" y="8012" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6409,9 +6377,6 @@ Query=`doct_deg`</DefaultAnnotationText>
 Query=`prof_deg`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Educational attainment and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h13_adj.xlsx|||`prof_deg`" type="V_String" />
@@ -6427,7 +6392,7 @@ Query=`prof_deg`</DefaultAnnotationText>
         </Node>
         <Node ToolID="276">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="53" y="7830" />
+            <Position x="107" y="7856" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6444,9 +6409,6 @@ Query=`prof_deg`</DefaultAnnotationText>
 Query=`masters_deg`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Educational attainment and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h13_adj.xlsx|||`masters_deg`" type="V_String" />
@@ -6462,7 +6424,7 @@ Query=`masters_deg`</DefaultAnnotationText>
         </Node>
         <Node ToolID="275">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="53" y="7650" />
+            <Position x="107" y="7676" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6479,9 +6441,6 @@ Query=`masters_deg`</DefaultAnnotationText>
 Query=`bach_deg_or_more`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Educational attainment and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h13_adj.xlsx|||`bach_deg_or_more`" type="V_String" />
@@ -6497,7 +6456,7 @@ Query=`bach_deg_or_more`</DefaultAnnotationText>
         </Node>
         <Node ToolID="274">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="54" y="7482" />
+            <Position x="108" y="7508" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6514,9 +6473,6 @@ Query=`bach_deg_or_more`</DefaultAnnotationText>
 Query=`bach_deg`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Educational attainment and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h13_adj.xlsx|||`bach_deg`" type="V_String" />
@@ -6532,7 +6488,7 @@ Query=`bach_deg`</DefaultAnnotationText>
         </Node>
         <Node ToolID="273">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="53" y="7326" />
+            <Position x="107" y="7352" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6549,9 +6505,6 @@ Query=`bach_deg`</DefaultAnnotationText>
 Query=`assoc_deg`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Educational attainment and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h13_adj.xlsx|||`assoc_deg`" type="V_String" />
@@ -6567,7 +6520,7 @@ Query=`assoc_deg`</DefaultAnnotationText>
         </Node>
         <Node ToolID="272">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="53" y="7158" />
+            <Position x="107" y="7184" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6584,9 +6537,6 @@ Query=`assoc_deg`</DefaultAnnotationText>
 Query=`some_college_no_degree`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Educational attainment and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h13_adj.xlsx|||`some_college_no_degree`" type="V_String" />
@@ -6602,7 +6552,7 @@ Query=`some_college_no_degree`</DefaultAnnotationText>
         </Node>
         <Node ToolID="271">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="54" y="6990" />
+            <Position x="108" y="7016" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6619,9 +6569,6 @@ Query=`some_college_no_degree`</DefaultAnnotationText>
 Query=`high_school_grad`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Educational attainment and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h13_adj.xlsx|||`high_school_grad`" type="V_String" />
@@ -6637,7 +6584,7 @@ Query=`high_school_grad`</DefaultAnnotationText>
         </Node>
         <Node ToolID="270">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="41" y="6822" />
+            <Position x="95" y="6848" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6654,9 +6601,6 @@ Query=`high_school_grad`</DefaultAnnotationText>
 Query=`from_9th_to_12th`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Educational attainment and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h13_adj.xlsx|||`from_9th_to_12th`" type="V_String" />
@@ -6672,7 +6616,7 @@ Query=`from_9th_to_12th`</DefaultAnnotationText>
         </Node>
         <Node ToolID="269">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="54" y="6654" />
+            <Position x="108" y="6680" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -6689,9 +6633,6 @@ Query=`from_9th_to_12th`</DefaultAnnotationText>
 Query=`less_than_9th`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Educational attainment and year" size="255" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_households\h13_adj.xlsx|||`less_than_9th`" type="V_String" />
@@ -6707,24 +6648,24 @@ Query=`less_than_9th`</DefaultAnnotationText>
         </Node>
         <Node ToolID="329">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1302" y="8334" />
+            <Position x="1356" y="8360" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <FormulaFields>
-                <FormulaField expression="ROUND([Number of Households]/[All hh], .01)" field="Perc of HH" size="4" type="Float" />
+                <FormulaField expression="[Number of Households]/[All hh]" field="Perc of HH" size="4" type="Float" />
                 <FormulaField expression="[Mean income]-[Median income]" field="Diff Mean and Med" size="8" type="Int64" />
-                <FormulaField expression="ROUND(([Mean income]-[Median income])/(([Mean income]+[Median income])/2), .01)" field="Perc Diff Mean and Med" size="4" type="Float" />
+                <FormulaField expression="([Mean income]-[Median income])/(([Mean income]+[Median income])/2)" field="Perc Diff Mean and Med" size="4" type="Float" />
                 <FormulaField expression="[Median_all]-[Median income]" field="Diff Real Med and Med" size="8" type="Int64" />
-                <FormulaField expression="ROUND(([Median_all]-[Median income])/(([Median_all]+[Median income])/2),.01)" field="Perc Diff Read Med and Med" size="4" type="Float" />
+                <FormulaField expression="([Median_all]-[Median income])/(([Median_all]+[Median income])/2)" field="Perc Diff Read Med and Med" size="4" type="Float" />
                 <FormulaField expression="[Mean_all]-[Mean income]" field="Diff Mean All and Mean" size="8" type="Int64" />
-                <FormulaField expression="ROUND(([Mean_all]-[Mean income])/(([Mean_all]+[Median income])/2),.01)" field="Perc Diff Mean All and Mean" size="4" type="Float" />
+                <FormulaField expression="([Mean_all]-[Mean income])/(([Mean_all]+[Median income])/2)" field="Perc Diff Mean All and Mean" size="4" type="Float" />
               </FormulaFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>Perc of HH = ROUND([Number of Households]/[All hh], .01)
-Diff Mean and Med = [Me...</DefaultAnnotationText>
+              <DefaultAnnotationText>Perc of HH = [Number of Households]/[All hh]
+Diff Mean and Med = [Mean income]-[...</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
           </Properties>
@@ -6732,11 +6673,11 @@ Diff Mean and Med = [Me...</DefaultAnnotationText>
         </Node>
         <Node ToolID="342">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1422" y="8334" />
+            <Position x="1476" y="8360" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\HHI\H13_mean_med_edu_histhhinc.csv</File>
+              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\HHI\H13_mean_med_edu_histhhinc1.csv</File>
               <Passwords />
               <Disable>False</Disable>
               <FormatSpecificOptions>
@@ -6751,12 +6692,9 @@ Diff Mean and Med = [Me...</DefaultAnnotationText>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>H13_mean_med_edu_histhhinc.csv</DefaultAnnotationText>
+              <DefaultAnnotationText>H13_mean_med_edu_histhhinc1.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
@@ -6946,7 +6884,11 @@ Diff Mean and Med = [Me...</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="261" Connection="Output" />
-      <Destination ToolID="339" Connection="Input" />
+      <Destination ToolID="344" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="345" Connection="Output" />
+      <Destination ToolID="344" Connection="Right" />
     </Connection>
     <Connection>
       <Origin ToolID="263" Connection="Output" />
@@ -6959,6 +6901,10 @@ Diff Mean and Med = [Me...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="266" Connection="Join" />
       <Destination ToolID="263" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="344" Connection="Join" />
+      <Destination ToolID="339" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="133" Connection="Output" />
@@ -7095,10 +7041,6 @@ Diff Mean and Med = [Me...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="173" Connection="Output" />
       <Destination ToolID="174" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="174" Connection="Output" />
-      <Destination ToolID="338" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="18" Connection="Output" />
@@ -7307,10 +7249,6 @@ Diff Mean and Med = [Me...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="20" Connection="Output" />
       <Destination ToolID="27" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="27" Connection="Output" />
-      <Destination ToolID="107" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="36" Connection="Output" />
@@ -7542,7 +7480,7 @@ Diff Mean and Med = [Me...</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="341" Connection="Output" />
-      <Destination ToolID="340" Connection="Input" />
+      <Destination ToolID="345" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="325" Connection="Output" />
