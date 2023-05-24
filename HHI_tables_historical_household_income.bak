@@ -5383,7 +5383,7 @@ Query=`all`</DefaultAnnotationText>
         <Configuration>
           <Caption>h13_edu_hh_mean_med_1991_2021_histhhinc</Caption>
           <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
-          <Disabled value="True" />
+          <Disabled value="False" />
           <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
@@ -7727,7 +7727,7 @@ Diff Mean and Med = [Mean income]-[...</DefaultAnnotationText>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>HHI_tables_historical_household_income</Name>
+      <Name>H_tables_household_income</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
