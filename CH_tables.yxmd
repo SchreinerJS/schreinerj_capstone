@@ -1100,7 +1100,7 @@ Query=`Living_arrangements_childre...</DefaultAnnotationText>
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="71" y="840" width="973" height="433" />
+        <Position x="70" y="839" width="1000" height="467" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1118,22 +1118,19 @@ Query=`Living_arrangements_childre...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="51">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="829" y="985" />
+            <Position x="810" y="1146" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <FormulaFields>
-                <FormulaField expression="[Total children with parent type]/[Total Children]" field="Children with parent type (percTC)" size="4" type="Float" />
-                <FormulaField expression="[Total children with parent type]/[Children living with one parent]" field="Children with parent type (perc1P)" size="4" type="Float" />
-                <FormulaField expression="[Never married]/[Total children with parent type]" field="Never married (percTCFT)" size="4" type="Float" />
-                <FormulaField expression="[Divorce]/[Total children with parent type]" field="Divorce (percTCFT)" size="4" type="Float" />
-                <FormulaField expression="[Spouse absent]/[Total children with parent type]" field="Spouse absent (percTCFT)" size="4" type="Float" />
-                <FormulaField expression="[Widowed]/[Total children with parent type]" field="Widowed (percTCFT)" size="4" type="Float" />
+                <FormulaField expression="[Children by Parent Marital Status]/[Children by Family Structure]" field="Percent Children by parent marital status and family structure" size="4" type="Float" />
+                <FormulaField expression="[Children by Family Structure]/[Children Living with Sole Parent]" field="Percent children by family structure" size="4" type="Float" />
+                <FormulaField expression="[Children by Parent Marital Status]/[Children Living with Sole Parent]" field="Percent children by parent marital status to Children Living with Sole Parent" size="4" type="Float" />
               </FormulaFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>Children with parent type (percTC) = [Total children with parent type]/[Total Ch...</DefaultAnnotationText>
+              <DefaultAnnotationText>Percent Children by parent marital status and family structure = [Children by Pa...</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
           </Properties>
@@ -1235,13 +1232,28 @@ Query=`Living_arrangements_childre...</DefaultAnnotationText>
         </Node>
         <Node ToolID="42">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-            <Position x="553" y="1189" />
+            <Position x="642" y="1146" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <ErrorWarn>Warn</ErrorWarn>
-              <KeyFields />
-              <DataFields />
+              <KeyFields>
+                <Field field="Year" />
+                <Field field="Children living with one parent" />
+                <Field field="Total children with parent type" />
+                <Field field="Parent Type" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Year" selected="False" />
+                <Field field="Children living with one parent" selected="False" />
+                <Field field="Total children with parent type" selected="False" />
+                <Field field="Divorce" selected="True" />
+                <Field field="Spouse absent" selected="True" />
+                <Field field="Widowed" selected="True" />
+                <Field field="Never married" selected="True" />
+                <Field field="Parent Type" selected="False" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -1328,7 +1340,7 @@ Query=`Living_arrangements_childre...</DefaultAnnotationText>
         </Node>
         <Node ToolID="35">
           <GuiSettings>
-            <Position x="180" y="1069" />
+            <Position x="179" y="1069" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1344,7 +1356,7 @@ Query=`Living_arrangements_childre...</DefaultAnnotationText>
         </Node>
         <Node ToolID="34">
           <GuiSettings>
-            <Position x="181" y="889" />
+            <Position x="181" y="888" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1360,7 +1372,7 @@ Query=`Living_arrangements_childre...</DefaultAnnotationText>
         </Node>
         <Node ToolID="31">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="96" y="1069" />
+            <Position x="95" y="1069" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1426,49 +1438,9 @@ Query=`mother_only_marital_status`</DefaultAnnotationText>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
         </Node>
-        <Node ToolID="55">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="649" y="985" />
-          </GuiSettings>
-          <Properties>
-            <Configuration joinByRecordPos="False">
-              <JoinInfo connection="Left">
-                <Field field="Year" />
-              </JoinInfo>
-              <JoinInfo connection="Right">
-                <Field field="Year" />
-              </JoinInfo>
-              <SelectConfiguration>
-                <Configuration outputConnection="Join">
-                  <OrderChanged value="False" />
-                  <CommaDecimal value="False" />
-                  <SelectFields>
-                    <SelectField field="Left_Year" selected="True" input="Left_" />
-                    <SelectField field="Left_Children living with one parent" selected="True" input="Left_" />
-                    <SelectField field="Left_Total children with parent type" selected="True" input="Left_" />
-                    <SelectField field="Left_Divorce" selected="True" input="Left_" />
-                    <SelectField field="Left_Spouse absent" selected="True" input="Left_" />
-                    <SelectField field="Left_Widowed" selected="True" input="Left_" />
-                    <SelectField field="Left_Never married" selected="True" input="Left_" />
-                    <SelectField field="Left_Parent Type" selected="True" input="Left_" />
-                    <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
-                    <SelectField field="Right_Total Children" selected="True" input="Right_" />
-                    <SelectField field="*Unknown" selected="False" />
-                  </SelectFields>
-                </Configuration>
-              </SelectConfiguration>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-        </Node>
         <Node ToolID="56">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="733" y="985" />
+            <Position x="726" y="1146" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1476,14 +1448,11 @@ Query=`mother_only_marital_status`</DefaultAnnotationText>
               <CommaDecimal value="False" />
               <SelectFields>
                 <SelectField field="Year" selected="True" />
-                <SelectField field="Total Children" selected="True" />
-                <SelectField field="Children living with one parent" selected="True" />
-                <SelectField field="Total children with parent type" selected="True" />
-                <SelectField field="Never married" selected="True" />
-                <SelectField field="Divorce" selected="True" />
-                <SelectField field="Spouse absent" selected="True" />
-                <SelectField field="Widowed" selected="True" />
-                <SelectField field="Parent Type" selected="True" />
+                <SelectField field="Children living with one parent" selected="True" rename="Children Living with Sole Parent" />
+                <SelectField field="Total children with parent type" selected="True" rename="Children by Family Structure" />
+                <SelectField field="Parent Type" selected="True" rename="Family Structure" />
+                <SelectField field="Name" selected="True" rename="Marital Status" />
+                <SelectField field="Value" selected="True" rename="Children by Parent Marital Status" />
                 <SelectField field="*Unknown" selected="True" />
               </SelectFields>
             </Configuration>
@@ -1497,11 +1466,11 @@ Query=`mother_only_marital_status`</DefaultAnnotationText>
         </Node>
         <Node ToolID="57">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="913" y="985" />
+            <Position x="942" y="1146" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\ch5_6_cleaned.csv</File>
+              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\CH\ch5_6_transformed.csv</File>
               <Passwords />
               <Disable>False</Disable>
               <FormatSpecificOptions>
@@ -1516,9 +1485,12 @@ Query=`mother_only_marital_status`</DefaultAnnotationText>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>ch5_6_cleaned.csv</DefaultAnnotationText>
+              <DefaultAnnotationText>ch5_6_transformed.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
@@ -1532,7 +1504,7 @@ Query=`mother_only_marital_status`</DefaultAnnotationText>
         <Configuration>
           <Caption>CH-1 Count</Caption>
           <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
-          <Disabled value="True" />
+          <Disabled value="False" />
           <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
@@ -1910,16 +1882,12 @@ Query=`Living_arrangements_childre...</DefaultAnnotationText>
       <Destination ToolID="73" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="73" Connection="Output" />
-      <Destination ToolID="18" Connection="Input" />
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="46" Connection="Output" />
-      <Destination ToolID="55" Connection="Left" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="13" Connection="Output" />
-      <Destination ToolID="55" Connection="Right" />
+      <Destination ToolID="42" Connection="Input" />
     </Connection>
     <Connection name="#2">
       <Origin ToolID="45" Connection="Output" />
@@ -1936,6 +1904,10 @@ Query=`Living_arrangements_childre...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="43" Connection="Output" />
       <Destination ToolID="44" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="38" Connection="Output26" />
@@ -1960,10 +1932,6 @@ Query=`Living_arrangements_childre...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="30" Connection="Output" />
       <Destination ToolID="34" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="55" Connection="Join" />
-      <Destination ToolID="56" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="56" Connection="Output" />

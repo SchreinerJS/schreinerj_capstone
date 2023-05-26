@@ -1,6 +1,68 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="2022.3">
   <Nodes>
+    <Node ToolID="100">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="101" y="1973" width="158" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 100</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="101">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="2022" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\backups\f12_num_earners_fam_inc_mean_med_1967.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>f12_num_earners_fam_inc_mean_med_1967.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="year" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\backups\f12_num_earners_fam_inc_mean_med_1967.csv" type="V_String" />
+                <Field name="total_families" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\backups\f12_num_earners_fam_inc_mean_med_1967.csv" type="V_String" />
+                <Field name="median" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\backups\f12_num_earners_fam_inc_mean_med_1967.csv" type="V_String" />
+                <Field name="mean" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\backups\f12_num_earners_fam_inc_mean_med_1967.csv" type="V_String" />
+                <Field name="number_of_earners" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\backups\f12_num_earners_fam_inc_mean_med_1967.csv" type="V_String" />
+                <Field name="number_of_earners_txt" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\backups\f12_num_earners_fam_inc_mean_med_1967.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
     <Node ToolID="33">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
         <Position x="54" y="582" width="1802" height="790" />
@@ -1927,13 +1989,13 @@ Family shape - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="76" y="1409" width="901" height="537" />
+        <Position x="76" y="1409" width="902" height="537" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Caption>Container 31</Caption>
           <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
-          <Disabled value="False" />
+          <Disabled value="True" />
           <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
@@ -2109,9 +2171,6 @@ Family shape - Ascending</DefaultAnnotationText>
               <DefaultAnnotationText>f10_med_family_structure.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
@@ -2215,9 +2274,6 @@ Family shape - Ascending</DefaultAnnotationText>
               <DefaultAnnotationText>f10_med_meaninc_1987.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="year" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\single_parent\census\historical_income_families\f10_med_meaninc_1987.csv" type="V_String" />
@@ -2497,9 +2553,6 @@ Family shape - Ascending</DefaultAnnotationText>
               <DefaultAnnotationText>f11_mean_med_age.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>

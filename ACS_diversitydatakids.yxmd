@@ -1,0 +1,1156 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="77" y="388" width="1053" height="660" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Single Mothers Family Households who are poor by State and Race/Ethnicity</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="114" y="437" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>sm_fam_poor_count_1yr.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="geoid" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="name" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="year" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="total_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="total_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="aian_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="aian_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="api_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="api_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="asian_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="asian_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="black_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="black_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="hisp_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="hisp_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="nhisp_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="nhisp_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="nhopi_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="nhopi_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="nhwhite_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="nhwhite_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="nnhwhite_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="nnhwhite_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="other_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="other_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="othermore_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="othermore_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="twomore_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="twomore_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="white_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+                <Field name="white_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\sm_fam_poor_count_1yr.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="197" y="437" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="geoid" selected="True" rename="GeoID" />
+                <SelectField field="name" selected="True" rename="State" />
+                <SelectField field="year" selected="True" rename="YEAR" />
+                <SelectField field="total_est" selected="True" rename="Total Sole Mothers in Poverty" type="Int64" size="8" />
+                <SelectField field="total_se" selected="False" />
+                <SelectField field="aian_se" selected="False" />
+                <SelectField field="aian_est" selected="True" rename="American Indian/Native Alaskan" type="Int64" size="8" />
+                <SelectField field="api_se" selected="False" />
+                <SelectField field="api_est" selected="True" rename="Asian/Pacific Islander" type="Int64" size="8" />
+                <SelectField field="asian_se" selected="False" />
+                <SelectField field="asian_est" selected="True" rename="Asian Alone" type="Int64" size="8" />
+                <SelectField field="black_se" selected="False" />
+                <SelectField field="black_est" selected="True" rename="Black/African American alone" />
+                <SelectField field="hisp_se" selected="False" />
+                <SelectField field="hisp_est" selected="True" rename="Hispanic/Latino" type="Int64" size="8" />
+                <SelectField field="nhisp_se" selected="False" />
+                <SelectField field="nhisp_est" selected="False" rename="Non-Hispanic" />
+                <SelectField field="nhopi_se" selected="False" />
+                <SelectField field="nhopi_est" selected="True" rename="Native Hawaiian/Other Pacific Islander Alone" type="Int64" size="8" />
+                <SelectField field="nhwhite_se" selected="False" />
+                <SelectField field="nhwhite_est" selected="True" rename="White/Non-Hispanic or Latino Alone" type="Int64" size="8" />
+                <SelectField field="nnhwhite_se" selected="False" />
+                <SelectField field="nnhwhite_est" selected="True" rename="Total Minus Non-Hispanic Whites" type="Int64" size="8" />
+                <SelectField field="other_se" selected="False" />
+                <SelectField field="other_est" selected="True" rename="Other Race Alone" type="Int64" size="8" />
+                <SelectField field="othermore_se" selected="False" />
+                <SelectField field="othermore_est" selected="True" rename="Some Other Race Alone or Two or More Races" type="Int64" size="8" />
+                <SelectField field="twomore_se" selected="False" />
+                <SelectField field="twomore_est" selected="True" rename="Two or More Races" type="Int64" size="8" />
+                <SelectField field="white_se" selected="False" />
+                <SelectField field="white_est" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="294" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="GeoID" />
+                <Field field="State" />
+                <Field field="YEAR" />
+                <Field field="Total Sole Mothers in Poverty" />
+              </KeyFields>
+              <DataFields>
+                <Field field="GeoID" selected="False" />
+                <Field field="State" selected="False" />
+                <Field field="YEAR" selected="False" />
+                <Field field="Total Sole Mothers in Poverty" selected="False" />
+                <Field field="American Indian/Native Alaskan" selected="True" />
+                <Field field="Asian/Pacific Islander" selected="True" />
+                <Field field="Asian Alone" selected="True" />
+                <Field field="Black/African American alone" selected="True" />
+                <Field field="Hispanic/Latino" selected="True" />
+                <Field field="Native Hawaiian/Other Pacific Islander Alone" selected="True" />
+                <Field field="White/Non-Hispanic or Latino Alone" selected="True" />
+                <Field field="Total Minus Non-Hispanic Whites" selected="True" />
+                <Field field="Other Race Alone" selected="True" />
+                <Field field="Some Other Race Alone or Two or More Races" selected="True" />
+                <Field field="Two or More Races" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="858" y="690" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="([Total Sole Mothers]/[Total Family Households])*100" field="Percent Sole Mothers by Total Family Households" size="4" type="Float" />
+                <FormulaField expression="([Total Sole Mothers in Poverty]/[Total Family Households])*100" field="Percent Sole Mothers in Poverty by Total Households" size="4" type="Float" />
+                <FormulaField expression="([Total Sole Mothers in Poverty By Race/Ethnicity]/[Total Family Households])*100" field="Percent Sole Mothers in Poverty By Race by Total Family Households" size="4" type="Float" />
+                <FormulaField expression="([Total Sole Mothers By Race/Ethnicity]/[Total Family Households])*100" field="Percent Sole Mothers by Race by Total Family Households" size="4" type="Float" />
+                <FormulaField expression="([Total Sole Mothers in Poverty By Race/Ethnicity]/[Total Sole Mothers])*100" field="Percent Sole Mothers in Poverty by Race/Ethnicity to Total Sole Mothers" size="4" type="Float" />
+                <FormulaField expression="([Total Sole Mothers in Poverty By Race/Ethnicity]/[Total Sole Mothers in Poverty])*100" field="Percent Sole Mothers in Poverty by Race/Ethnicity to Sole Mothers in Poverty" size="4" type="Float" />
+                <FormulaField expression="([Total Sole Mothers By Race/Ethnicity]/[Total Sole Mothers])*100" field="Percent Sole Mothers by Race/Ethnicity to Total Sole Mothers" size="1073741823" type="V_WString" />
+                <FormulaField expression="([Total Sole Mothers in Poverty]/[Total Sole Mothers])*100" field="Percent Sole Mothers in Poverty by Total Sole Mothers" size="4" type="Float" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Percent Sole Mothers by Total Family Households = ([Total Sole Mothers]/[Total F...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="377" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Name" selected="True" rename="Race/Ethnicity" />
+                <SelectField field="Value" selected="True" rename="Total Sole Mothers in Poverty By Race/Ethnicity" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1002" y="690" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\DDK\sm_fam_poor_1yr_state.csv</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>sm_fam_poor_1yr_state.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="113" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\num_fam_hh_state\num_fam_hh_state_1yr.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>num_fam_hh_state_1yr.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="geoid" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\num_fam_hh_state\num_fam_hh_state_1yr.csv" type="V_String" />
+                <Field name="name" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\num_fam_hh_state\num_fam_hh_state_1yr.csv" type="V_String" />
+                <Field name="year" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\num_fam_hh_state\num_fam_hh_state_1yr.csv" type="V_String" />
+                <Field name="total_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\num_fam_hh_state\num_fam_hh_state_1yr.csv" type="V_String" />
+                <Field name="total_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\1yr_data\num_fam_hh_state\num_fam_hh_state_1yr.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="197" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="geoid" selected="True" rename="GeoID" />
+                <SelectField field="name" selected="True" rename="State" />
+                <SelectField field="year" selected="True" rename="YEAR" />
+                <SelectField field="total_est" selected="True" rename="Total family households" type="Int64" size="8" />
+                <SelectField field="total_se" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="618" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="GeoID" />
+                <Field field="State" />
+                <Field field="YEAR" />
+                <Field field="Race/Ethnicity" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="GeoID" />
+                <Field field="State" />
+                <Field field="YEAR" />
+                <Field field="Race/Ethnicity" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_GeoID" selected="True" input="Left_" />
+                    <SelectField field="Left_State" selected="True" input="Left_" />
+                    <SelectField field="Left_YEAR" selected="True" input="Left_" />
+                    <SelectField field="Left_Race/Ethnicity" selected="True" input="Left_" />
+                    <SelectField field="Right_Total Sole Mothers" selected="True" input="Right_" />
+                    <SelectField field="Right_Total Sole Mothers By Race/Ethnicity" selected="True" input="Right_" />
+                    <SelectField field="Left_Total Sole Mothers in Poverty" selected="True" input="Left_" />
+                    <SelectField field="Left_Total Sole Mothers in Poverty By Race/Ethnicity" selected="True" input="Left_" />
+                    <SelectField field="Right_GeoID" selected="False" rename="Right_GeoID" input="Right_" />
+                    <SelectField field="Right_State" selected="False" rename="Right_State" input="Right_" />
+                    <SelectField field="Right_YEAR" selected="False" rename="Right_YEAR" input="Right_" />
+                    <SelectField field="Right_Race/Ethnicity" selected="False" rename="Right_Race/Ethnicity" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="102" y="533" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>state_sm_count_1yr.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="geoid" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="name" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="year" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="total_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="total_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="aian_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="aian_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="api_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="api_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="asian_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="asian_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="black_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="black_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="hisp_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="hisp_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="nhisp_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="nhisp_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="nhopi_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="nhopi_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="nhwhite_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="nhwhite_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="nnhwhite_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="nnhwhite_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="other_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="other_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="othermore_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="othermore_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="twomore_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="twomore_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="white_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+                <Field name="white_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_count\1yr\state_sm_count_1yr.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="185" y="533" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="geoid" selected="True" rename="GeoID" />
+                <SelectField field="name" selected="True" rename="State" />
+                <SelectField field="year" selected="True" rename="YEAR" />
+                <SelectField field="total_est" selected="True" rename="Total Sole Mothers" type="Int64" size="8" />
+                <SelectField field="total_se" selected="False" />
+                <SelectField field="aian_se" selected="False" />
+                <SelectField field="aian_est" selected="True" rename="American Indian/Native Alaskan" type="Int64" size="8" />
+                <SelectField field="api_se" selected="False" />
+                <SelectField field="api_est" selected="True" rename="Asian/Pacific Islander" type="Int64" size="8" />
+                <SelectField field="asian_se" selected="False" />
+                <SelectField field="asian_est" selected="True" rename="Asian Alone" type="Int64" size="8" />
+                <SelectField field="black_se" selected="False" />
+                <SelectField field="black_est" selected="True" rename="Black/African American alone" />
+                <SelectField field="hisp_se" selected="False" />
+                <SelectField field="hisp_est" selected="True" rename="Hispanic/Latino" type="Int64" size="8" />
+                <SelectField field="nhisp_se" selected="False" />
+                <SelectField field="nhisp_est" selected="False" rename="Non-Hispanic" />
+                <SelectField field="nhopi_se" selected="False" />
+                <SelectField field="nhopi_est" selected="True" rename="Native Hawaiian/Other Pacific Islander Alone" type="Int64" size="8" />
+                <SelectField field="nhwhite_se" selected="False" />
+                <SelectField field="nhwhite_est" selected="True" rename="White/Non-Hispanic or Latino Alone" type="Int64" size="8" />
+                <SelectField field="nnhwhite_se" selected="False" />
+                <SelectField field="nnhwhite_est" selected="True" rename="Total Minus Non-Hispanic Whites" type="Int64" size="8" />
+                <SelectField field="other_se" selected="False" />
+                <SelectField field="other_est" selected="True" rename="Other Race Alone" type="Int64" size="8" />
+                <SelectField field="othermore_se" selected="False" />
+                <SelectField field="othermore_est" selected="True" rename="Some Other Race Alone or Two or More Races" type="Int64" size="8" />
+                <SelectField field="twomore_se" selected="False" />
+                <SelectField field="twomore_est" selected="True" rename="Two or More Races" type="Int64" size="8" />
+                <SelectField field="white_se" selected="False" />
+                <SelectField field="white_est" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="270" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="GeoID" />
+                <Field field="State" />
+                <Field field="YEAR" />
+                <Field field="Total Sole Mothers" />
+              </KeyFields>
+              <DataFields>
+                <Field field="GeoID" selected="False" />
+                <Field field="State" selected="False" />
+                <Field field="YEAR" selected="False" />
+                <Field field="Total Sole Mothers" selected="False" />
+                <Field field="American Indian/Native Alaskan" selected="True" />
+                <Field field="Asian/Pacific Islander" selected="True" />
+                <Field field="Asian Alone" selected="True" />
+                <Field field="Black/African American alone" selected="True" />
+                <Field field="Hispanic/Latino" selected="True" />
+                <Field field="Native Hawaiian/Other Pacific Islander Alone" selected="True" />
+                <Field field="White/Non-Hispanic or Latino Alone" selected="True" />
+                <Field field="Total Minus Non-Hispanic Whites" selected="True" />
+                <Field field="Other Race Alone" selected="True" />
+                <Field field="Some Other Race Alone or Two or More Races" selected="True" />
+                <Field field="Two or More Races" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="354" y="533" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Name" selected="True" rename="Race/Ethnicity" />
+                <SelectField field="Value" selected="True" rename="Total Sole Mothers By Race/Ethnicity" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="714" y="606" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="GeoID" />
+                <Field field="State" />
+                <Field field="YEAR" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="GeoID" />
+                <Field field="State" />
+                <Field field="YEAR" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_GeoID" selected="True" input="Left_" />
+                    <SelectField field="Left_State" selected="True" input="Left_" />
+                    <SelectField field="Left_YEAR" selected="True" input="Left_" />
+                    <SelectField field="Left_Race/Ethnicity" selected="True" input="Left_" />
+                    <SelectField field="Right_Total family households" selected="True" rename="Total Family Households" input="Right_" />
+                    <SelectField field="Left_Total Sole Mothers" selected="True" input="Left_" />
+                    <SelectField field="Left_Total Sole Mothers By Race/Ethnicity" selected="True" input="Left_" />
+                    <SelectField field="Left_Total Sole Mothers in Poverty" selected="True" input="Left_" />
+                    <SelectField field="Left_Total Sole Mothers in Poverty By Race/Ethnicity" selected="True" input="Left_" />
+                    <SelectField field="Right_GeoID" selected="False" rename="Right_GeoID" input="Right_" />
+                    <SelectField field="Right_State" selected="False" rename="Right_State" input="Right_" />
+                    <SelectField field="Right_YEAR" selected="False" rename="Right_YEAR" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="966" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\DDK\sm_fam_poor_1yr_state_1.csv</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>sm_fam_poor_1yr_state_1.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="990" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\DDK\sm_fam_poor_1yr_state_2.csv</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>sm_fam_poor_1yr_state_2.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="870" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Total Sole Mothers]/[Total Family Households]" field="Percent Sole Mothers by Total Family Households" size="4" type="Float" />
+                <FormulaField expression="[Total Sole Mothers in Poverty]/[Total Family Households]" field="Percent Sole Mothers in Poverty by Total Households" size="4" type="Float" />
+                <FormulaField expression="[Total Sole Mothers in Poverty By Race/Ethnicity]/[Total Family Households]" field="Percent Sole Mothers in Poverty By Race by Total Family Households" size="4" type="Float" />
+                <FormulaField expression="[Total Sole Mothers By Race/Ethnicity]/[Total Family Households]" field="Percent Sole Mothers by Race by Total Family Households" size="4" type="Float" />
+                <FormulaField expression="[Total Sole Mothers in Poverty By Race/Ethnicity]/[Total Sole Mothers]" field="Percent Sole Mothers in Poverty by Race/Ethnicity to Total Sole Mothers" size="4" type="Float" />
+                <FormulaField expression="[Total Sole Mothers in Poverty By Race/Ethnicity]/[Total Sole Mothers in Poverty]" field="Percent Sole Mothers in Poverty by Race/Ethnicity to Sole Mothers in Poverty" size="4" type="Float" />
+                <FormulaField expression="[Total Sole Mothers By Race/Ethnicity]/[Total Sole Mothers]" field="Percent Sole Mothers by Race/Ethnicity to Total Sole Mothers" size="4" type="Float" />
+                <FormulaField expression="([Total Sole Mothers in Poverty]/[Total Sole Mothers])*100" field="Percent Sole Mothers in Poverty by Total Sole Mothers" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Percent Sole Mothers by Total Family Households = [Total Sole Mothers]/[Total Fa...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="870" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="([Total Sole Mothers]/[Total Family Households])*10" field="Percent Sole Mothers by Total Family Households" size="4" type="Float" />
+                <FormulaField expression="([Total Sole Mothers in Poverty]/[Total Family Households])*10" field="Percent Sole Mothers in Poverty by Total Households" size="4" type="Float" />
+                <FormulaField expression="([Total Sole Mothers in Poverty By Race/Ethnicity]/[Total Family Households])*10" field="Percent Sole Mothers in Poverty By Race by Total Family Households" size="4" type="Float" />
+                <FormulaField expression="([Total Sole Mothers By Race/Ethnicity]/[Total Family Households])*10" field="Percent Sole Mothers by Race by Total Family Households" size="4" type="Float" />
+                <FormulaField expression="([Total Sole Mothers in Poverty By Race/Ethnicity]/[Total Sole Mothers])*10" field="Percent Sole Mothers in Poverty by Race/Ethnicity to Total Sole Mothers" size="4" type="Float" />
+                <FormulaField expression="([Total Sole Mothers in Poverty By Race/Ethnicity]/[Total Sole Mothers in Poverty])*10" field="Percent Sole Mothers in Poverty by Race/Ethnicity to Sole Mothers in Poverty" size="4" type="Float" />
+                <FormulaField expression="([Total Sole Mothers By Race/Ethnicity]/[Total Sole Mothers])*10" field="Percent Sole Mothers by Race/Ethnicity to Total Sole Mothers" size="1073741823" type="V_WString" />
+                <FormulaField expression="([Total Sole Mothers in Poverty]/[Total Sole Mothers])*10" field="Percent Sole Mothers in Poverty by Total Sole Mothers" size="4" type="Float" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Percent Sole Mothers by Total Family Households = ([Total Sole Mothers]/[Total F...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="89" y="53" width="621" height="309" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 1</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="114" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>sm_fam_poor_count_5yr.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="geoid" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="name" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="year" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="total_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="total_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="aian_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="aian_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="api_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="api_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="asian_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="asian_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="black_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="black_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="hisp_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="hisp_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nhisp_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nhisp_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nhopi_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nhopi_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nhwhite_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nhwhite_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nnhwhite_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nnhwhite_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="other_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="other_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="othermore_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="othermore_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="twomore_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="twomore_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="white_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="white_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="198" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="geoid" selected="True" rename="GeoId" />
+                <SelectField field="name" selected="True" rename="State" />
+                <SelectField field="year" selected="True" rename="YEAR" />
+                <SelectField field="total_est" selected="True" rename="Total Single Mothers" />
+                <SelectField field="total_se" selected="False" />
+                <SelectField field="aian_se" selected="False" />
+                <SelectField field="aian_est" selected="True" rename="American Indian/Native Alaskan" />
+                <SelectField field="api_se" selected="False" />
+                <SelectField field="api_est" selected="True" rename="Asian/Pacific Islander" />
+                <SelectField field="asian_se" selected="False" />
+                <SelectField field="asian_est" selected="True" rename="Asian Alone" />
+                <SelectField field="black_se" selected="False" />
+                <SelectField field="black_est" selected="True" rename="Black/African American alone" />
+                <SelectField field="hisp_se" selected="False" />
+                <SelectField field="hisp_est" selected="True" rename="Hispanic/Latino" />
+                <SelectField field="nhisp_se" selected="False" />
+                <SelectField field="nhisp_est" selected="False" rename="Non-Hispanic" />
+                <SelectField field="nhopi_se" selected="False" />
+                <SelectField field="nhopi_est" selected="True" rename="Native Hawaiian/Other Pacific Islander Alone" />
+                <SelectField field="nhwhite_se" selected="False" />
+                <SelectField field="nhwhite_est" selected="True" rename="White/Non-Hispanic or Latino Alone" />
+                <SelectField field="nnhwhite_se" selected="False" />
+                <SelectField field="nnhwhite_est" selected="True" rename="Total Minus Non-Hispanic Whites" />
+                <SelectField field="other_se" selected="False" />
+                <SelectField field="other_est" selected="True" rename="Other Race Alone" />
+                <SelectField field="othermore_se" selected="False" />
+                <SelectField field="othermore_est" selected="True" rename="Some Other Race Alone or Two or More Races" />
+                <SelectField field="twomore_se" selected="False" />
+                <SelectField field="twomore_est" selected="True" rename="Two or More Races" />
+                <SelectField field="white_se" selected="False" />
+                <SelectField field="white_est" selected="False" rename="White Alone" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="294" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="GeoId" />
+                <Field field="State" />
+                <Field field="YEAR" />
+                <Field field="Total Single Mothers" />
+              </KeyFields>
+              <DataFields>
+                <Field field="GeoId" selected="False" />
+                <Field field="State" selected="False" />
+                <Field field="YEAR" selected="False" />
+                <Field field="Total Single Mothers" selected="False" />
+                <Field field="American Indian/Native Alaskan" selected="True" />
+                <Field field="Asian/Pacific Islander" selected="True" />
+                <Field field="Asian Alone" selected="True" />
+                <Field field="Black/African American alone" selected="True" />
+                <Field field="Hispanic/Latino" selected="True" />
+                <Field field="Non-Hispanic" selected="True" />
+                <Field field="Native Hawaiian/Other Pacific Islander Alone" selected="True" />
+                <Field field="White/Non-Hispanic or Latino Alone" selected="True" />
+                <Field field="nnhwhite_est" selected="True" />
+                <Field field="other_est" selected="True" />
+                <Field field="Some Other Race Alone or Two or More Races" selected="True" />
+                <Field field="Two or More Races" selected="True" />
+                <Field field="white_est" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="390" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Name" selected="True" rename="Race/Ethnicity" />
+                <SelectField field="Value" selected="True" rename="Total Mothers By Race/Ethnicity" type="Int64" size="8" />
+                <SelectField field="Total Single Mothers" selected="True" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="486" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="([Total Mothers By Race/Ethnicity]/[Total Single Mothers])*100" field="Percent of Total Single Mothers by State , Year, and Race/Ethnicity" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Percent of Total Single Mothers by State , Year, and Race/Ethnicity = ([Total Mo...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="582" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\cleaned\DDK\sm_fam_poor_5yr_state.csv</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>sm_fam_poor_5yr_state.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="114" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\..\..\..\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>sm_fam_poor_count_5yr.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="geoid" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="name" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="year" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="total_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="total_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="aian_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="aian_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="api_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="api_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="asian_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="asian_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="black_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="black_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="hisp_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="hisp_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nhisp_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nhisp_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nhopi_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nhopi_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nhwhite_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nhwhite_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nnhwhite_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="nnhwhite_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="other_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="other_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="othermore_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="othermore_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="twomore_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="twomore_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="white_se" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+                <Field name="white_est" size="254" source="File: C:\Users\houxu\Documents\DDA9\Capstone\schreinerj_capstone\data\diversitydatakids\state_sm_poor\5yr_data\sm_fam_poor_count_5yr.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="18" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="18" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="23" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Join" />
+      <Destination ToolID="23" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ACS_diversitydatakids</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="facfa1bb-5bc3-43a0-be86-519fcf4bfe65" />
+      <Telemetry>
+        <PreviousWorkflowId value="b15ceedb-3be7-4ae8-8af2-495057ab26ae" />
+        <OriginWorkflowId value="b15ceedb-3be7-4ae8-8af2-495057ab26ae" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
