@@ -21,7 +21,7 @@
       <ChildNodes>
         <Node ToolID="4">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="114" y="437" />
+            <Position x="113" y="438" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -139,7 +139,7 @@
         </Node>
         <Node ToolID="6">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-            <Position x="294" y="438" />
+            <Position x="294" y="437" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -256,7 +256,7 @@
         </Node>
         <Node ToolID="16">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="113" y="630" />
+            <Position x="114" y="630" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -528,7 +528,7 @@
         </Node>
         <Node ToolID="22">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="354" y="533" />
+            <Position x="353" y="533" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1036,10 +1036,6 @@
       <Destination ToolID="8" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="9" Connection="Input" />
-    </Connection>
-    <Connection>
       <Origin ToolID="8" Connection="Output" />
       <Destination ToolID="18" Connection="Left" />
     </Connection>
@@ -1082,14 +1078,6 @@
     <Connection>
       <Origin ToolID="23" Connection="Join" />
       <Destination ToolID="29" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="28" Connection="Output" />
-      <Destination ToolID="25" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="29" Connection="Output" />
-      <Destination ToolID="27" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="2" Connection="Output" />
