@@ -16,7 +16,7 @@ Link:
 * [Where Do We Go From Here?](#Where-Do-We-Go-From-Here?)
 * [Sources](#sources)
 
-## Overview:
+## Overview
 Family is the basis of society, and the shape of the American family has changed significantly since the entry of more women and mothers into the workplace. 
 
 This analysis of historical Census Bureau and other family and household data offers insight into the changes to American family shape and structure over time, with a focus on sole (or single) parents.
@@ -24,12 +24,12 @@ This analysis of historical Census Bureau and other family and household data of
 In addition, analysis of historical income trends as well as other factors will raise awareness of the challenges our sole parents may be facing in a dual-income society.
 
 
-## Motivation:
+## Motivation
 This project was inspired by the valiant efforts of my brother as a single dad in years past, and by the stories of sole mother co-workers and friends, as well as by the data itself. 
 
 With better understanding of the historical trends and factors impacting sole parents, such as earning potential, location, and ethnicity, more conversations and more questions can be encouraged as to how governments, communities, families, and individuals are adapting to these changes.
 
-## Questions:
+## Questions
 Questions that focused my analysis included:
 
 - How has the shape and structure of the American family changed over time?
@@ -109,7 +109,7 @@ https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-in
 
 * “Housing units with family households (count)”, retrieved from https://data.diversitydatakids.org/dataset/25011_1_c-housing-units-with-family-households--count-?_external=True on Jun 29 2023, calculated from American Community Survey Summary Files
 git
- 
+
 4) Real Median Household Income in the United States
 https://fred.stlouisfed.org/series/MEHOINUSA672N
 Source of this dataset: U.S. Census Bureau  Release: Income and Poverty in the United States  
