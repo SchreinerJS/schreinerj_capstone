@@ -36,7 +36,7 @@ Questions that focused my analysis included:
 
 - How are children's living situations being impacted by historical trends of marital status for sole parents?
 
-- How might factors such as earning trends, location, and race/ethnicity impacting sole parents, and especially, sole mothers? 
+- What factors are impacting earnings for sole parents, and especially, sole mothers, such as employment and income trends, number of earners, age, location, and/or race/ethinity? 
 
 ## Data Cleaning and Normalizing
 Data was drawn primarily from U.S. Census Bureau Current Population Surveys Annual Social and Economic Supplements (CPS ASEC) Tables.  Additional single parent datasets were selected from datadiversitykids.org, which were calculated from Census Bureau American Community Survey (ACS) data, as well as from web scraping and OLEC.
