@@ -97,18 +97,19 @@ https://www.census.gov/data/tables/time-series/demo/families/households.html
 https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-families.html
 
 3) Various Datasets from DataDiversityKids.org
-diversitydatakids.org. 2021. “Households that are single parent (count) by race/ethnicity”, retrieved from https://data.diversitydatakids.org/dataset/11001_2_c-households-that-are-single-parent--count--by-race-ethnicity?_external=True on May 02 2023, calculated from American Community Survey Summary Files
+* diversitydatakids.org. 2021. “Households that are single parent (count) by race/ethnicity”, retrieved from https://data.diversitydatakids.org/dataset/11001_2_c-households-that-are-single-parent--count--by-race-ethnicity?_external=True on May 02 2023, calculated from American Community Survey Summary Files
 
-“Households that are single parent (percent) by race/ethnicity”, retrieved from https://data.diversitydatakids.org/dataset/11001_2_p-households-that-are-single-parent--percent--by-race-ethnicity?_external=True on May 02 2023, calculated from American Community Survey Summary Files
+* “Households that are single parent (percent) by race/ethnicity”, retrieved from https://data.diversitydatakids.org/dataset/11001_2_p-households-that-are-single-parent--percent--by-race-ethnicity?_external=True on May 02 2023, calculated from American Community Survey Summary Files
 
-“Single mother families with children aged 0-17 years (count) by race/ethnicity”, retrieved from https://data.diversitydatakids.org/dataset/17010_3_c-single-mother-families-with-children-aged-0-17-years--count--by-race-ethnicity?_external=True, calculated from American Community Survey Summary Files
+* “Single mother families with children aged 0-17 years (count) by race/ethnicity”, retrieved from https://data.diversitydatakids.org/dataset/17010_3_c-single-mother-families-with-children-aged-0-17-years--count--by-race-ethnicity?_external=True, calculated from American Community Survey Summary Files
 
- “Single mother families with children aged 0-17 years (percent) by race/ethnicity”, retrieved from https://data.diversitydatakids.org/dataset/17010_3_p-single-mother-families-with-children-aged-0-17-years--percent--by-race-ethnicity?_external=True, calculated from American Community Survey Summary
+ * “Single mother families with children aged 0-17 years (percent) by race/ethnicity”, retrieved from https://data.diversitydatakids.org/dataset/17010_3_p-single-mother-families-with-children-aged-0-17-years--percent--by-race-ethnicity?_external=True, calculated from American Community Survey Summary
 
- “Poverty rate, single mother families with children aged 0-17 years (percent) by race/ethnicity”, retrieved from https://data.diversitydatakids.org/dataset/17010_4_p-poverty-rate--single-mother-families-with-children-aged-0-17-years--percent--by-race-ethni?_external=True on Jun 27 2023, calculated from American Community Survey Summary Files
+ * “Poverty rate, single mother families with children aged 0-17 years (percent) by race/ethnicity”, retrieved from https://data.diversitydatakids.org/dataset/17010_4_p-poverty-rate--single-mother-families-with-children-aged-0-17-years--percent--by-race-ethni?_external=True on Jun 27 2023, calculated from American Community Survey Summary Files
 
-“Housing units with family households (count)”, retrieved from https://data.diversitydatakids.org/dataset/25011_1_c-housing-units-with-family-households--count-?_external=True on Jun 29 2023, calculated from American Community Survey Summary Files
-
+* “Housing units with family households (count)”, retrieved from https://data.diversitydatakids.org/dataset/25011_1_c-housing-units-with-family-households--count-?_external=True on Jun 29 2023, calculated from American Community Survey Summary Files
+git
+ 
 4) Real Median Household Income in the United States
 https://fred.stlouisfed.org/series/MEHOINUSA672N
 Source of this dataset: U.S. Census Bureau  Release: Income and Poverty in the United States  
