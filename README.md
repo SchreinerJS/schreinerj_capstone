@@ -1,7 +1,9 @@
 # Shape of the American Family
 
 ## Tableau Story
-Link:
+Links:  
+https://public.tableau.com/views/ShapeofAmericanFamily_1P_Introduction_Overview/IntroductionandOverview?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/ShapeofAmericanFamily_2P_ChildrensLivingSituations/ShapeoftheAmericanFamily?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 ## Table of Contents
 * [Tableau Story](#Tableau-Story)
@@ -23,7 +25,6 @@ This analysis of historical Census Bureau and other family and household data of
 
 In addition, analysis of historical income trends as well as other factors will raise awareness of the challenges our sole parents may be facing in a dual-income society.
 
-
 ## Motivation
 This project was inspired by the valiant efforts of my brother as a single dad in years past, and by the stories of sole mother co-workers and friends, as well as by the data itself. 
 
@@ -39,9 +40,9 @@ Questions that focused my analysis included:
 - What factors are impacting earnings for sole parents, and especially, sole mothers, such as employment and income trends, number of earners, age, location, and/or race/ethinity? 
 
 ## Data Cleaning and Normalizing
-Data was drawn primarily from U.S. Census Bureau Current Population Surveys Annual Social and Economic Supplements (CPS ASEC) Tables.  Additional single parent datasets were selected from datadiversitykids.org, which were calculated from Census Bureau American Community Survey (ACS) data, as well as from web scraping and OLEC.
+Data was drawn primarily from U.S. Census Bureau Current Population Surveys Annual Social and Economic Supplements (CPS ASEC) Tables.  Additional single parent datasets were selected from datadiversitykids.org, which were calculated from Census Bureau American Community Survey (ACS) data, as well as from web scraping and custom tables from the OECD Family Database (Organisation for Economic Co-operation and Development).
 
-Multiple dataframes were created from these Excel tables and cleaned in Python, building the long tables into wide tables to create headings of categorical values as well as removing footnotes, duplicated year values, transforming datatypes, and selecting only timeframes which had no missing data for one or more variables.  
+The tables were cleaned and transformed in Python and Alteryx, removing footnotes and duplicated year rows (keeping the most recently compiled data), transforming datatypes, building the tables long, and selecting timeframes which had no missing data for one or more variables. 
 
 ## Issues and Limitations
 Census variables and definitions have been evolving to accommodate the changes to family structure.  There were also considerations of the need to make adjustments for inflation and current dollars.  Therefore the decision was made to utilize pre-tabulated data and datasets, which offered a variety of historical household, family, and income values calculated with the appropriate year-to-year adjustments.
