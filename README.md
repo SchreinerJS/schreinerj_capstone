@@ -1,9 +1,15 @@
 # Shape of the American Family
 
 ## Tableau Story
-Links:  
-https://public.tableau.com/views/ShapeofAmericanFamily_1P_Introduction_Overview/IntroductionandOverview?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
-https://public.tableau.com/views/ShapeofAmericanFamily_2P_ChildrensLivingSituations/ShapeoftheAmericanFamily?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+Links:
+Part I
+https://public.tableau.com/app/profile/jennifer.schreiner/viz/ShapeofAmericanFamily_1P_Introduction_Overview/IntroductionandOverview
+
+Part II
+https://public.tableau.com/app/profile/jennifer.schreiner/viz/ShapeofAmericanFamily_2P_ChildrensLivingSituations/ShapeoftheAmericanFamily
+
+Part III
+https://public.tableau.com/app/profile/jennifer.schreiner/viz/ShapeofAmericanFamily_3P_Factors_Impacting_Income/ShapeoftheAmericanFamily
 
 ## Table of Contents
 * [Tableau Story](#Tableau-Story)
