@@ -1,5 +1,6 @@
 # Shape of the American Family
-![Screenshot 2023-08-27 201441](https://github.com/SchreinerJS/schreinerj_capstone/assets/122580191/bedaf949-5e09-4f1a-81c1-43843d445794)
+![Screenshot 2023-08-27 201441](https://github.com/SchreinerJS/schreinerj_capstone/assets/122580191/e06160db-a6f1-406f-9518-40156b891ca3)
+
 
 ## Tableau Story
 Links:
